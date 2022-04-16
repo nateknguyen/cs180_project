@@ -1,16 +1,11 @@
-from flask import redirect, Flask, request
+from flask import redirect, Flask, request, render_template
 import playerName
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return f'''<!DOCTYPE html>
-    <html>
-        <body>
-            {playerName.getPlayerTable()}
-        </body>
-    </html>
-    '''
+    return render_template('index.html', playerList=playerName.getPlayerTable())
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
