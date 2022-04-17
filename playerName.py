@@ -3,10 +3,38 @@ import pandas
 def getPlayerTable():
     players = pandas.read_csv("all_seasons.csv", sep=",")
 
-    datas = players[ ["player_name", "team_abbreviation", "age"] ]
-    datas.dropna(how="any")
-    html = datas.to_html()
+    dataSet = list()
+    for data in players.iloc:
+        dataSet.append(data.to_dict())
 
-    return html
+    return dataSet
 
+def searchPlayerByName(playerList, playerName):
+    playerData = getPlayerTable()
+    searchData = list()
 
+    for player in playerData:
+        if player['player_name'] == playerName:
+            searchData.append(player)
+    
+    return searchData
+
+def searchPlayerByDraftYear(playerList, playerDraftYear):
+    playerData = getPlayerTable()
+    searchData = list()
+
+    for player in playerData:
+        if player['draft_year'] == playerDraftYear:
+            searchData.append(player)
+
+    return searchData
+
+def searchPlayerBySeason(playerList, playerSeason):
+    playerData = getPlayerTable()
+    searchData = list()
+
+    for player in playerData:
+        if player['season'] == playerSeason:
+            searchData.append(player)
+    
+    return searchData

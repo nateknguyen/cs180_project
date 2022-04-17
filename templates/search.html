@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{playerName}}</h1>
+    <br>
+    <br>
+    <table border="1" style="width: 100%;" >
+        <tr style="text-align: center; font-weight: bold;">
+            <td>player_name</td>
+            <td>team_abbrevieation</td>
+            <td>age</td>
+            <td>player_height</td>
+            <td>player_weight</td>
+            <td>college</td>
+            <td>country</td>
+            <td>draft_year</td>
+            <td>draft_round</td>
+            <td>draft_number</td>
+            <td>gp</td>
+            <td>pts</td>
+            <td>reb</td>
+            <td>ast</td>
+            <td>net_rating</td>
+            <td>oreb_pct</td>
+            <td>dreb_pct</td>
+            <td>usg_pct</td>
+            <td>ts_pct</td>
+            <td>ast_pct</td>
+            <td>season</td>
+
+        </tr>
+        {% for value in playerList %}
+        <tr>
+            <td>{{value['player_name']}}</td>
+            <td>{{value['team_abbreviation']}}</td>
+            <td>{{value['age']}}</td>
+            <td>{{value['player_height']}}</td>
+            <td>{{value['player_weight']}}</td>
+            <td>{{value['college']}}</td>
+            <td>{{value['country']}}</td>
+            <td>{{value['draft_year']}}</td>
+            <td>{{value['draft_round']}}</td>
+            <td>{{value['draft_number']}}</td>
+            <td>{{value['gp']}}</td>
+            <td>{{value['pts']}}</td>
+            <td>{{value['reb']}}</td>
+            <td>{{value['ast']}}</td>
+            <td>{{value['net_rating']}}</td>
+            <td>{{value['oreb_pct']}}</td>
+            <td>{{value['dreb_pct']}}</td>
+            <td>{{value['usg_pct']}}</td>
+            <td>{{value['ts_pct']}}</td>
+            <td>{{value['ast_pct']}}</td>
+            <td>{{value['season']}}</td>
+            
+        </tr>
+        {% endfor %}
+    </table>  
+</body>
+</html>
