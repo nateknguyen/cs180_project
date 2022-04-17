@@ -5,61 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #searchName {
+          width: 20%;
+          padding: 5px 0;
+          text-align: center;
+          background-color: lightblue;
+          margin-top: 10px;
+          display: none;
+        }
+
+        #searchDraftYear {
+          width: 20%;
+          padding: 5px 0;
+          text-align: center;
+          background-color: rgb(155, 232, 152);
+          margin-top: 10px;
+          display: none;
+        }
+
+        #searchSeason {
+          width: 20%;
+          padding: 5px 0;
+          text-align: center;
+          background-color: rgb(226, 146, 148);
+          margin-top: 10px;
+          display: none;
+        }
+    </style>
 </head>
 <body>
     <h1>Player List</h1>
+    <br>
+    <button onclick="showSearchName()">Search By Name</button>
+    <form action='/searchByName/' method="get">
+        <div id="searchName">
+            <p>
+            <input type="text" name="name" placeholder="name">
+            <button type="submit">search</button>
+            </p>
+        </div>
+    </form>
+    <br>
+    <button onclick="showSearchDraftYear()">Search By Draft Year</button>
+    <form action='/searchByDraftYear/' method="get">
+        <div id="searchDraftYear">
+            <p>
+            <input type="text" name="draftYear" placeholder="draft year">
+            <button type="submit">search</button>
+            </p>
+        </div>
+    </form>
+    <br>
+    <button onclick="showSearchSeason()">Search By Season</button>
+    <form action='/searchBySeason/' method="get">
+        <div id="searchSeason">
+            <p>
+            <input type="text" name="season" placeholder="season">
+            <button type="submit">search</button>
+            </p>
+        </div>
+    </form>
     <br>
     <table border="1" style="width: 100%;" >
         <tr style="text-align: center; font-weight: bold;">
             <td>player_name</td>
             <td>team_abbrevieation</td>
             <td>age</td>
-            <td>player_height</td>
-            <td>player_weight</td>
-            <td>college</td>
-            <td>country</td>
-            <td>draft_year</td>
-            <td>draft_round</td>
-            <td>draft_number</td>
-            <td>gp</td>
-            <td>pts</td>
-            <td>reb</td>
-            <td>ast</td>
-            <td>net_rating</td>
-            <td>oreb_pct</td>
-            <td>dreb_pct</td>
-            <td>usg_pct</td>
-            <td>ts_pct</td>
-            <td>ast_pct</td>
-            <td>season</td>
-
         </tr>
         {% for value in playerList %}
         <tr>
             <td>{{value['player_name']}}</td>
             <td>{{value['team_abbreviation']}}</td>
             <td>{{value['age']}}</td>
-            <td>{{value['player_height']}}</td>
-            <td>{{value['player_weight']}}</td>
-            <td>{{value['college']}}</td>
-            <td>{{value['country']}}</td>
-            <td>{{value['draft_year']}}</td>
-            <td>{{value['draft_round']}}</td>
-            <td>{{value['draft_number']}}</td>
-            <td>{{value['gp']}}</td>
-            <td>{{value['pts']}}</td>
-            <td>{{value['reb']}}</td>
-            <td>{{value['ast']}}</td>
-            <td>{{value['net_rating']}}</td>
-            <td>{{value['oreb_pct']}}</td>
-            <td>{{value['dreb_pct']}}</td>
-            <td>{{value['usg_pct']}}</td>
-            <td>{{value['ts_pct']}}</td>
-            <td>{{value['ast_pct']}}</td>
-            <td>{{value['season']}}</td>
-            
         </tr>
         {% endfor %}
-    </table>  
+    </table> 
+    <script>
+        function showSearchName() {
+          var x = document.getElementById("searchName");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+        function showSearchDraftYear() {
+          var x = document.getElementById("searchDraftYear");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+        function showSearchSeason() {
+          var x = document.getElementById("searchSeason");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script> 
 </body>
 </html>
