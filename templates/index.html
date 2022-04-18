@@ -49,6 +49,10 @@
       font-family: Georgia;
     }
 
+    label{
+      font-family: Georgia;
+    }
+
 
     </style>
 </head>
@@ -80,30 +84,30 @@
     <h1 style="text-align:center;">All NBA Players</h1>
     <h3 style="text-align:center;">Biometric, biographic, and basic box score data from the 1996 to 2019 NBA seasons</h3>
     <br>
-    <button type="button" class="btn btn-outline-primary" onclick="showSearchName()">Search By Player Name</button>
+    <button type="button" class="btn btn-primary" onclick="showSearchName()">Search By Player Name</button>
     <form action='/searchByName/' method="get">
         <div id="searchName">
             <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
             <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
-            <button type="submit">search</button>
+            <button type="submit" class="btn btn-primary">search</button>
         </div>
     </form>
     <br>
-    <button type="button" class="btn btn-outline-primary" onclick="showSearchDraftYear()">Search By Draft Year</button>
+    <button type="button" class="btn btn-primary" onclick="showSearchDraftYear()">Search By Draft Year</button>
     <form action='/searchByDraftYear/' method="get">
         <div id="searchDraftYear">
               <label for="exampleFormControlInput1" class="form-label">Type Draft Year</label>
               <input type="text" class="form-control" name="name"  placeholder="ex: 1996">
-              <button type="submit">search</button>
-        </div>
+              <button type="submit" class="btn btn-primary">search</button>
+            </div>
     </form>
     <br>
-    <button type="button" class="btn btn-outline-primary" onclick="showSearchSeason()">Search By Season</button>
+    <button type="button" class="btn btn-primary" onclick="showSearchSeason()">Search By Season</button>
     <form action='/searchBySeason/' method="get">
         <div id="searchSeason">
           <label for="exampleFormControlInput1" class="form-label">Type Season</label>
           <input type="text" class="form-control" name="name"  placeholder="ex: 1996-97">
-          <button type="submit">search</button>
+          <button type="submit" class="btn btn-primary">search</button>
         </div>
     </form>
     <br>
