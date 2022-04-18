@@ -1,0 +1,38 @@
+<style>
+
+h1{
+    text-align: center;
+}
+
+#searchName {
+    width: 20%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 10px;
+    display: none;
+}
+
+#searchDraftYear {
+    width: 20%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(155, 232, 152);
+    margin-top: 10px;
+    display: none;
+}
+
+#searchSeason {
+    width: 20%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(226, 146, 148);
+    margin-top: 10px;
+    display: none;
+}
+
+h1{
+    font-family: Georgia;
+}
+
+</style>
