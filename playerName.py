@@ -5,6 +5,7 @@ def getPlayerTable():
 
     dataSet = list()
     for data in players.iloc:
+        data.pop('Unnamed: 0')
         dataSet.append(data.to_dict())
 
     return dataSet
