@@ -2,6 +2,7 @@ from operator import methodcaller
 import string
 from flask import redirect, Flask, request, render_template
 import playerName
+import playerInsertion
 
 players = playerName.getPlayerTable()
 playerToSearch = list()
@@ -39,6 +40,16 @@ def searchBySeason():
     searchType = 'Search by Season: '+season
 
     return render_template('search.html', playerList=playerToSearch, playerName=searchType)
+
+#app route for add player
+@app.route('/addPlayer/')
+def addPlayer():
+    playerData = [0] * 21 #create a player entry of 20 elements for each column
+    name = request.args.get("name")
+    playerData[0] = name 
+    player = playerInsertion.insertPlayer(playerData)
+    newEntry = [playerInsertion.getNewestPlayer()]
+    return render_template('insertion.html', name = name, playerData = newEntry)
 
 if __name__ == "__main__":
     app.run(debug=True)
