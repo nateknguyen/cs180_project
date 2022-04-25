@@ -53,6 +53,15 @@
     label {
       font-family: Georgia;
     }
+
+    #addPlayer{
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
     </style>
 </head>
 <body style="background-color:17408B;">
@@ -106,6 +115,16 @@
           <button type="submit" class="btn btn-primary">search</button>
         </div>
     </form>
+    <!--Button for add player-->
+    <br>
+    <button type="button" class="btn btn-primary" onclick="addPlayer()">Add Player</button>
+    <form action='/addPlayer/' method="get">
+        <div id="addPlayer">
+            <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
+            <button type="submit" class="btn btn-primary">add</button>
+        </div>
+    </form>
     <br>
     <table class="table table-hover table-bordered table-responsive">
       <tr style="text-align: left; font-weight: bold;" class="table-dark">
@@ -145,6 +164,15 @@
           if (x.style.display === "none") {
             x.style.display = "block";
           } else {
+            x.style.display = "none";
+          }
+        }
+
+        function addPlayer(){
+          var x = document.getElementById("addPlayer");
+          if (x.style.display === "none"){
+            x.style.display = "block";
+          } else{
             x.style.display = "none";
           }
         }
