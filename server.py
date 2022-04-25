@@ -3,9 +3,11 @@ import string
 from flask import redirect, Flask, request, render_template
 import playerName
 import playerInsertion
+import playerUpdate
 
 players = playerName.getPlayerTable()
 playerToSearch = list()
+check = list()
 
 app = Flask(__name__)
 
@@ -51,5 +53,25 @@ def addPlayer():
     newEntry = [playerInsertion.getNewestPlayer()]
     return render_template('insertion.html', name = name, playerData = newEntry)
 
+#app route for update player
+@app.route('/updatePlayer/')
+def updatePlayer():
+    global playerToSearch
+    
+    name = request.args.get("name")
+    season = request.args.get("season")
+
+    playerToSearch = playerName.searchPlayerByName(players, name)
+    print("playerToSearch:" , playerToSearch)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
+    
+    print("name: ", name)
+    print("season: " , season)
+
+    searchType = 'Update by Name: '+name
+
+    return render_template('update.html', playerList=playerToSearch, playerName=searchType)
+
 if __name__ == "__main__":
     app.run(debug=True)
+

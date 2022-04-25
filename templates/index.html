@@ -9,6 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NBA Player Data</title>
     <style>    
+
+    body {
+      background-color: #f7f7f7;
+    }
+
+    h1 {
+      font-family: Georgia;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: Georgia;
+    }
+
+    label {
+      font-family: Georgia;
+    }
+
+
     #searchName {
       width: 20%;
       padding: 5px 0;
@@ -36,24 +56,6 @@
       display: none;
     }
 
-    body {
-    background-color: #f7f7f7;
-  }
-
-    h1 {
-      font-family: Georgia;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    h3 {
-      font-family: Georgia;
-    }
-
-    label {
-      font-family: Georgia;
-    }
-
     #addPlayer{
       width: 20%;
       padding: 5px 0;
@@ -62,6 +64,17 @@
       margin-top: 10px;
       display: none;
     }
+
+    #updatePlayer{
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
+
+
     </style>
 </head>
 <body style="background-color:17408B;">
@@ -126,6 +139,20 @@
         </div>
     </form>
     <br>
+    <!--Button for Update Player-->
+    <br>
+    <button type="button" class="btn btn-primary" onclick="updatePlayer()">Update Player</button>
+    <form action='/updatePlayer/' method="get">
+        <div id="updatePlayer">
+            <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
+
+            <label for="exampleFormControlInput1" class="form-label">Type Season</label>
+            <input type="text" class="form-control" name="season"  placeholder="ex: 1996-97">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+    <br>
     <table class="table table-hover table-bordered table-responsive">
       <tr style="text-align: left; font-weight: bold;" class="table-dark">
             <td>Player Names</td>
@@ -176,8 +203,18 @@
             x.style.display = "none";
           }
         }
+
+        function updatePlayer(){
+          var x = document.getElementById("updatePlayer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
     </script> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+        

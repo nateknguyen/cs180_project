@@ -33,10 +33,11 @@ def searchPlayerByDraftYear(playerList, playerDraftYear):
     return searchData
 
 def searchPlayerBySeason(playerList, playerSeason):
+    
     playerData = getPlayerTable()
     searchData = list()
 
-    for player in playerData:
+    for player in playerList:
         if player['season'] == playerSeason:
             searchData.append(player)
     
