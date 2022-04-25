@@ -1,7 +1,9 @@
 import pandas
 
+FILE_NAME = "all_seasonsTest.csv"
+
 def getPlayerTable():
-    players = pandas.read_csv("all_seasons.csv", sep=",")
+    players = pandas.read_csv(FILE_NAME, sep=",")
 
     dataSet = list()
     for data in players.iloc:
