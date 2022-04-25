@@ -14,6 +14,9 @@ class UnitTest(unittest.TestCase):
       if player['player_name'] == "Travis Knight":
        searchData.append(player)
      self.assertEqual(result,searchData)
+     self.assertNotEqual(playerList,searchData)
+     self.assertListEqual(searchData,result)
+     
 
     def testSearchPlayerByDraftYear(self):
      searchData = list()
