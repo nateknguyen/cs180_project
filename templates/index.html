@@ -62,6 +62,15 @@
       margin-top: 10px;
       display: none;
     }
+
+    #netRating {
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
     </style>
 </head>
 <body style="background-color:17408B;">
@@ -126,6 +135,16 @@
         </div>
     </form>
     <br>
+    <!--Button for calculate net rating-->
+    <button type="button" class="btn btn-primary" onclick="netRating()">Calculate player's net rating</button>
+    <form action='/netRating/' method="get">
+        <div id="netRating">
+            <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
+            <button type="submit" class="btn btn-primary">search</button>
+        </div>
+    </form>
+    <br>
     <table class="table table-hover table-bordered table-responsive">
       <tr style="text-align: left; font-weight: bold;" class="table-dark">
             <td>Player Names</td>
@@ -170,6 +189,15 @@
 
         function addPlayer(){
           var x = document.getElementById("addPlayer");
+          if (x.style.display === "none"){
+            x.style.display = "block";
+          } else{
+            x.style.display = "none";
+          }
+        }
+
+        function netRating(){
+          var x = document.getElementById("netRating");
           if (x.style.display === "none"){
             x.style.display = "block";
           } else{

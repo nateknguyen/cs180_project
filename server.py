@@ -1,6 +1,7 @@
 from flask import redirect, Flask, request, render_template
 import playerName
 import playerInsertion
+import calculateNetRating
 
 playerName.convertPlayerTableToJSON()
 
@@ -44,13 +45,21 @@ def searchBySeason():
 #app route for add player
 @app.route('/addPlayer/')
 def addPlayer():
-    playerData = [0] * 21 #create a player entry of 20 elements for each column
+    playerData = dict.fromkeys(['', 'player_name', 'team_abbreviation', 'age', 'player_height', 'player_weight', 'college', 'country', 'draft_year', 'draft_round', 'draft_number', 'gp', 'pts', 'reb', 'ast', 'net_rating', 'oreb_pct', 'dreb_pct', 'usg_pct', 'ts_pct', 'ast_pct', 'season'])
     name = request.args.get("name")
-    playerData[0] = name 
-    player = playerInsertion.insertPlayer(playerData)
+    playerData['player_name'] = name
+    playerInsertion.insertPlayer(playerData)
     newEntry = [playerInsertion.getNewestPlayer()]
-    playerName.convertPlayerTableToJSON()
     return render_template('insertion.html', name = name, playerData = newEntry)
+
+#app route for calculate net rating
+@app.route('/netRating/')
+def netRating():
+    name = request.args.get("name")
+    playersCalculatedNetRating = calculateNetRating.calculateNetRating(name)
+    netRatingHeader = 'Net rating of ' + name
+
+    return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating)
 
 if __name__ == "__main__":
     app.run(debug=True)
