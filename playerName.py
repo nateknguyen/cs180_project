@@ -1,19 +1,31 @@
-import pandas
+import csv
+import json
 
 FILE_NAME = "all_seasonsTest.csv"
+PLAYERS_JSON_DATA = "players.json"
 
-def getPlayerTable():
-    players = pandas.read_csv(FILE_NAME, sep=",")
+def convertPlayerTableToJSON():
+    jsonArray = []
+    with open(FILE_NAME, 'r', encoding='utf-8') as f:
+       csvReader = csv.DictReader(f)
 
-    dataSet = list()
-    for data in players.iloc:
-        data.pop('Unnamed: 0')
-        dataSet.append(data.to_dict())
+       for row in csvReader:
+           jsonArray.append(row)
 
-    return dataSet
+    with open(PLAYERS_JSON_DATA, 'w', encoding='utf-8') as jsonf:
+        jsonString = json.dumps(jsonArray, indent=4)
+        jsonf.write(jsonString)
+
+def getPlayerListFromJSON():
+    with open(PLAYERS_JSON_DATA, 'r', encoding='utf-8') as jsonf:
+        data = json.load(jsonf)
+    
+    dataList = list(data)
+
+    return dataList
 
 def searchPlayerByName(playerList, playerName):
-    playerData = getPlayerTable()
+    playerData = getPlayerListFromJSON()
     searchData = list()
 
     for player in playerData:
@@ -23,7 +35,7 @@ def searchPlayerByName(playerList, playerName):
     return searchData
 
 def searchPlayerByDraftYear(playerList, playerDraftYear):
-    playerData = getPlayerTable()
+    playerData = getPlayerListFromJSON()
     searchData = list()
 
     for player in playerData:
@@ -33,7 +45,7 @@ def searchPlayerByDraftYear(playerList, playerDraftYear):
     return searchData
 
 def searchPlayerBySeason(playerList, playerSeason):
-    playerData = getPlayerTable()
+    playerData = getPlayerListFromJSON()
     searchData = list()
 
     for player in playerData:

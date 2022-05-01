@@ -1,10 +1,10 @@
-from operator import methodcaller
-import string
 from flask import redirect, Flask, request, render_template
 import playerName
 import playerInsertion
 
-players = playerName.getPlayerTable()
+playerName.convertPlayerTableToJSON()
+
+players = playerName.getPlayerListFromJSON()
 playerToSearch = list()
 
 app = Flask(__name__)
@@ -49,6 +49,7 @@ def addPlayer():
     playerData[0] = name 
     player = playerInsertion.insertPlayer(playerData)
     newEntry = [playerInsertion.getNewestPlayer()]
+    playerName.convertPlayerTableToJSON()
     return render_template('insertion.html', name = name, playerData = newEntry)
 
 if __name__ == "__main__":
