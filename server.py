@@ -2,6 +2,8 @@ from flask import redirect, Flask, request, render_template
 import playerName
 import playerInsertion
 import calculateNetRating
+import playerUpdate
+import playerDelete
 
 playerName.convertPlayerTableToJSON()
 
@@ -61,5 +63,53 @@ def netRating():
 
     return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating)
 
+
+#app route for updating player
+@app.route('/updatePlayer/')
+def updatePlayer():
+    global playerToSearch
+
+    name = request.args.get("name")
+    season = request.args.get("season")
+    pinput = request.args.get("pinput")
+    TAinput = request.args.get("TAinput")
+
+    playerToSearch = playerName.searchPlayerByName(players, name)
+    print("playerToSearch:" , playerToSearch)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
+
+    print("player_name: ", name)
+    print("season: " , season)
+
+    print("pinput: ", pinput)
+    print("TAinput: " , TAinput)
+
+    searchType = 'Update by Name: ' +name
+
+
+    return render_template('update.html', playerList=playerToSearch, playerName=searchType)
+
+#app route for delete player
+@app.route('/deletePlayer/')
+def deletePlayer():
+    global playerToSearch
+
+    name = request.args.get("name")
+    season = request.args.get("season")
+    delete_bool = request.args.get("delete_bool")
+
+    playerToSearch = playerName.searchPlayerByName(players, name)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
+
+    print("name: ", name)
+    print("season: ", season)
+    print("bool: ", delete_bool)
+
+    #searchType = 'Delete by Name: ' +name
+
+    return render_template('delete.html', playerList=playerToSearch)
+
 if __name__ == "__main__":
     app.run(debug=True)
+
+

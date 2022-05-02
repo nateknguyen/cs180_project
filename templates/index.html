@@ -63,6 +63,24 @@
       display: none;
     }
 
+    #updatePlayer{
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
+
+    #deletePlayer{
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
+
     #netRating {
       width: 20%;
       padding: 5px 0;
@@ -98,6 +116,7 @@
     <h1 style="text-align:center;">All NBA Players</h1>
     <h3 style="text-align:center;">Biometric, biographic, and basic box score data from the 1996 to 2019 NBA seasons</h3>
     <br>
+    <!--Button for Search Name-->
     <button type="button" class="btn btn-primary" onclick="showSearchName()">Search By Player Name</button>
     <form action='/searchByName/' method="get">
         <div id="searchName">
@@ -107,6 +126,7 @@
         </div>
     </form>
     <br>
+    <!--Button for Search Draft Year-->
     <button type="button" class="btn btn-primary" onclick="showSearchDraftYear()">Search By Draft Year</button>
     <form action='/searchByDraftYear/' method="get">
         <div id="searchDraftYear">
@@ -116,6 +136,7 @@
             </div>
     </form>
     <br>
+    <!--Button for Search Season-->
     <button type="button" class="btn btn-primary" onclick="showSearchSeason()">Search By Season</button>
     <form action='/searchBySeason/' method="get">
         <div id="searchSeason">
@@ -132,6 +153,32 @@
             <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
             <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
             <button type="submit" class="btn btn-primary">add</button>
+        </div>
+    </form>
+    <br>
+    <!--Button for Update Player-->
+    <button type="button" class="btn btn-primary" onclick="updatePlayer()">Update Player</button>
+    <form action='/updatePlayer/' method="get">
+        <div id="updatePlayer">
+            <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
+
+            <label for="exampleFormControlInput1" class="form-label">Type Season</label>
+            <input type="text" class="form-control" name="season"  placeholder="ex: 1996-97">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+    <br>
+    <!--Button for Delete Player-->
+    <button type="button" class="btn btn-primary" onclick="deletePlayer()">Delete Player</button>
+    <form action='/deletePlayer/' method="get">
+        <div id="deletePlayer">
+            <label for="exampleFormControlInput1" class="form-label">Type Player Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="ex: Kobe Bryant">
+
+            <label for="exampleFormControlInput1" class="form-label">Type Season</label>
+            <input type="text" class="form-control" name="season"  placeholder="ex: 1996-97">
+            <button type="submit" class="btn btn-primary">Search</button>
         </div>
     </form>
     <br>
@@ -196,6 +243,24 @@
           }
         }
 
+        function updatePlayer(){
+          var x = document.getElementById("updatePlayer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+        function deletePlayer(){
+          var x = document.getElementById("deletePlayer");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
         function netRating(){
           var x = document.getElementById("netRating");
           if (x.style.display === "none"){
