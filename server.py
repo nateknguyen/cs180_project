@@ -4,6 +4,7 @@ import playerInsertion
 import calculateNetRating
 import playerUpdate
 import playerDelete
+import json
 
 playerName.convertPlayerTableToJSON()
 
@@ -94,22 +95,27 @@ def updatePlayer():
 def deletePlayer():
     global playerToSearch
 
-    name = request.args.get("name")
-    season = request.args.get("season")
-    delete_bool = request.args.get("delete_bool")
+    pname = request.args.get("name")
+    pseason = request.args.get("season")
+    
 
-    playerToSearch = playerName.searchPlayerByName(players, name)
-    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
+    playerToSearch = playerName.searchPlayerByName(players, pname)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
 
-    print("name: ", name)
-    print("season: ", season)
-    print("bool: ", delete_bool)
 
-    #searchType = 'Delete by Name: ' +name
+    if (len(playerToSearch) != 0):
+        obj = json.load(open("players.json"))
+        
+        for i in range(len(obj)):
+            if obj[i]["player_name"] == pname and obj[i]["season"] == pseason:
+                obj.pop(i)
+                break
 
-    return render_template('delete.html', playerList=playerToSearch)
+        open("players.json", "w").write(
+            json.dumps(obj, sort_keys=True, indent = 4, separators=(',',': '))
+        )
+
+    return render_template('delete.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
