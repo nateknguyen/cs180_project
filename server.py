@@ -5,6 +5,7 @@ import calculateNetRating
 import playerUpdate
 import playerDelete
 import json
+import calculateDraftRound
 
 playerName.convertPlayerTableToJSON()
 
@@ -116,6 +117,16 @@ def deletePlayer():
         )
 
     return render_template('delete.html')
+
+@app.route('/draftRating/')
+def draftRating():
+    season = request.args.get("season")
+    round = request.args.get("round")
+    draftRoundRating = calculateDraftRound.calculateDraftRoundRating(season,round)
+    average = calculateDraftRound.calculateAverageNetRating(draftRoundRating)
+    draftRatingHeader = 'Season ' + season + ' Draft Round: ' + round 
+
+    return render_template('draftRating.html', playerName=draftRatingHeader,playerList=draftRoundRating,averageNetRating=average)
 
 if __name__ == "__main__":
     app.run(debug=True)
