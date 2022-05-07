@@ -2,6 +2,9 @@ from flask import redirect, Flask, request, render_template
 import playerName
 import playerInsertion
 import calculateNetRating
+import playerUpdate
+import playerDelete
+import json
 
 playerName.convertPlayerTableToJSON()
 
@@ -60,6 +63,59 @@ def netRating():
     netRatingHeader = 'Net rating of ' + name
 
     return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating)
+
+
+#app route for updating player
+@app.route('/updatePlayer/')
+def updatePlayer():
+    global playerToSearch
+
+    name = request.args.get("name")
+    season = request.args.get("season")
+    pinput = request.args.get("pinput")
+    TAinput = request.args.get("TAinput")
+
+    playerToSearch = playerName.searchPlayerByName(players, name)
+    print("playerToSearch:" , playerToSearch)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
+
+    print("player_name: ", name)
+    print("season: " , season)
+
+    print("pinput: ", pinput)
+    print("TAinput: " , TAinput)
+
+    searchType = 'Update by Name: ' +name
+
+
+    return render_template('update.html', playerList=playerToSearch, playerName=searchType)
+
+#app route for delete player
+@app.route('/deletePlayer/')
+def deletePlayer():
+    global playerToSearch
+
+    pname = request.args.get("name")
+    pseason = request.args.get("season")
+    
+
+    playerToSearch = playerName.searchPlayerByName(players, pname)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
+
+
+    if (len(playerToSearch) != 0):
+        obj = json.load(open("players.json"))
+        
+        for i in range(len(obj)):
+            if obj[i]["player_name"] == pname and obj[i]["season"] == pseason:
+                obj.pop(i)
+                break
+
+        open("players.json", "w").write(
+            json.dumps(obj, sort_keys=True, indent = 4, separators=(',',': '))
+        )
+
+    return render_template('delete.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
