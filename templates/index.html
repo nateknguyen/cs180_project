@@ -89,6 +89,15 @@
       margin-top: 10px;
       display: none;
     }
+
+    #draftRating {
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
     </style>
 </head>
 <body style="background-color:17408B;">
@@ -182,6 +191,19 @@
         </div>
     </form>
     <br>
+      <!--Button for draftRating Season-->
+      <button type="button" class="btn btn-primary" onclick="draftRating()">Get Average Rating</button>
+      <form action='/draftRating/' method="get">
+          <div id="draftRating">
+            <label for="exampleFormControlInput1" class="form-label">Type Season</label>
+            <input type="text" class="form-control" name="season"  placeholder="ex: 1996-97">
+            <br>
+            <label for="exampleFormControlInput1" class="form-label">Type Draft Round</label>
+            <input type="text" class="form-control" name="round"  placeholder="ex: 1">
+            <button type="submit" class="btn btn-primary">search</button>
+          </div>
+      </form>
+      <br>
     <!--Button for calculate net rating-->
     <button type="button" class="btn btn-primary" onclick="netRating()">Calculate player's net rating</button>
     <form action='/netRating/' method="get">
@@ -263,6 +285,15 @@
         
         function netRating(){
           var x = document.getElementById("netRating");
+          if (x.style.display === "none"){
+            x.style.display = "block";
+          } else{
+            x.style.display = "none";
+          }
+        }
+
+          function draftRating(){
+          var x = document.getElementById("draftRating");
           if (x.style.display === "none"){
             x.style.display = "block";
           } else{
