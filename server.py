@@ -71,23 +71,71 @@ def netRating():
 def updatePlayer():
     global playerToSearch
 
-    name = request.args.get("name")
-    season = request.args.get("season")
-    pinput = request.args.get("pinput")
-    TAinput = request.args.get("TAinput")
 
-    playerToSearch = playerName.searchPlayerByName(players, name)
-    print("playerToSearch:" , playerToSearch)
-    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, season)
 
-    print("player_name: ", name)
-    print("season: " , season)
+    #Search for Player by name+season
+    pname = request.args.get("name")
+    pseason = request.args.get("season")
+    playerToSearch = playerName.searchPlayerByName(players, pname)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
 
-    print("pinput: ", pinput)
-    print("TAinput: " , TAinput)
 
-    searchType = 'Update by Name: ' +name
+    #if person exists within list, get rest of inputs and write new ones
+    if (len(playerToSearch) != 0):
+        obj = json.load(open("players.json"))
 
+        tainput = request.args.get("tainput")
+        ageinput = request.args.get("ageinput")
+        heightinput = request.args.get("heightinput")
+        weightinput = request.args.get("weightinput")
+        collegeinput = request.args.get("collegeinput")
+        countryinput = request.args.get("countryinput")
+        dyearinput = request.args.get("dyearinput")
+        droundinput = request.args.get("droundinput")
+        dnuminput = request.args.get("dnuminput")
+        GPinput = request.args.get("GPinput")
+        ptsinput = request.args.get("ptsinput")
+        rebinput = request.args.get("rebinput")
+        astinput = request.args.get("astinput")
+        ORPinput = request.args.get("ORPinput")
+        UPinput = request.args.get("UPinput")
+        TSPinput = request.args.get("TSPinput")
+        APinput = request.args.get("APinput")
+        DRPinput = request.args.get("DRPinput")
+        
+
+        #rewriting
+        for i in range(len(obj)):
+            if obj[i]["player_name"] == pname and obj[i]["season"] == pseason:
+                obj[i]["age"] = ageinput
+                obj[i]["ast"] = astinput
+                obj[i]["ast_pct"] = APinput
+                obj[i]["college"] = collegeinput
+                obj[i]["country"] = countryinput
+                obj[i]["draft_number"] = dnuminput
+                obj[i]["draft_round"] = droundinput
+                obj[i]["draft_year"] = dyearinput
+                obj[i]["dreb_pct"] = DRPinput
+                obj[i]["gp"] = GPinput
+                obj[i]["oreb_pct"] = ORPinput
+                obj[i]["player_height"] = heightinput
+                obj[i]["player_weight"] = weightinput
+                obj[i]["pts"] = ptsinput
+                obj[i]["reb"] = rebinput
+                obj[i]["team_abbreviation"] = tainput
+                obj[i]["ts_pct"] = TSPinput
+                obj[i]["usg_pct"] = UPinput
+                obj[i]["oreb_pct"] = ORPinput
+
+                open("players.json", "w").write(
+            json.dumps(obj, sort_keys=True, indent = 4, separators=(',',': '))
+        )
+
+
+    playerToSearch = playerName.searchPlayerByName(players, pname)
+    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
+
+    searchType = "Update by Name: " +pname
 
     return render_template('update.html', playerList=playerToSearch, playerName=searchType)
 
