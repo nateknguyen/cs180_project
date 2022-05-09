@@ -1,0 +1,89 @@
+#searchName {
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#searchDraftYear {
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#searchSeason {
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+body {
+background-color: #f7f7f7;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: Georgia;
+}
+
+label {
+  font-family: Georgia;
+}
+
+#addPlayer{
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#updatePlayer{
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#deletePlayer{
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#netRating {
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
+
+#draftRating {
+  width: 20%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 10px;
+  display: none;
+}
