@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
-        return render_template('index.html', playerList=players)
+        return render_template('homePage.html', playerList=players)
 
 @app.route('/searchByName/')
 def searchByName():
