@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NBA Player Data</title>
+    <style>
+      #generateGraph {
+      width: 20%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 10px;
+      display: none;
+    }
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,6 +41,14 @@
   </nav>
     <h1>{{playerName}}</h1>
     <br>
+    <br>
+    <br>
+    <!--Button for Search Draft Year-->
+    <form action='/playerGraph/' method="get">
+        <div id="graphForPlayer">
+              <button type="submit" class="btn btn-primary">Generate Graph</button>
+            </div>
+    </form>
     <br>
     <table class="table table-hover table-bordered table-responsive">
       <tr style="text-align: left; font-weight: bold;" class="table-dark">
