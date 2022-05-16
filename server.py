@@ -6,6 +6,7 @@ import playerUpdate
 import playerDelete
 import json
 import calculateDraftRound
+import generateGraph
 
 playerName.convertPlayerTableToJSON()
 
@@ -175,6 +176,17 @@ def draftRating():
     draftRatingHeader = 'Season ' + season + ' Draft Round: ' + round 
 
     return render_template('draftRating.html', playerName=draftRatingHeader,playerList=draftRoundRating,averageNetRating=average)
+
+@app.route('/playerGraph/')
+def playerGraph():
+    with open('netRatingOfPlayer.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    dataList = list(data)
+
+    graph = generateGraph.generateGraph(dataList)
+    title = 'Graph of ' + dataList[0]['player_name']
+    return render_template('playerGraph.html', title=title, barGraph=graph)
 
 if __name__ == "__main__":
     app.run(debug=True)
