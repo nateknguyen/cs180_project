@@ -1,4 +1,3 @@
-from unittest import result
 import playerName
 import csv
 import json
@@ -34,3 +33,20 @@ def calculateNetRating(name):
         jsonf.write(jsonString)
 
     return resultList
+
+def getMaxNetRating(playerList):
+    max = Decimal(playerList[0]['net_rating'])
+    for player in playerList:
+        if max < Decimal(player['net_rating']):
+            max = Decimal(player['net_rating'])
+    
+    return max
+
+def getMinNetRating(playerList):
+    min = Decimal(playerList[0]['net_rating'])
+    for player in playerList:
+        if min > Decimal(player['net_rating']):
+            min = Decimal(player['net_rating'])
+
+    
+    return min

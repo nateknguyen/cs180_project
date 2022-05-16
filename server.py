@@ -185,8 +185,11 @@ def playerGraph():
     dataList = list(data)
 
     graph = generateGraph.generateGraph(dataList)
+    max = calculateNetRating.getMaxNetRating(dataList)
+    min = calculateNetRating.getMinNetRating(dataList)
+
     title = 'Graph of ' + dataList[0]['player_name']
-    return render_template('playerGraph.html', title=title, barGraph=graph)
+    return render_template('playerGraph.html', title=title, barGraph=graph, maxNetRating=max, minNetRating=min)
 
 if __name__ == "__main__":
     app.run(debug=True)
