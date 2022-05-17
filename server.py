@@ -1,4 +1,5 @@
 from flask import redirect, Flask, request, render_template
+from matplotlib.pyplot import scatter
 import playerName
 import playerInsertion
 import calculateNetRating
@@ -190,6 +191,21 @@ def playerGraph():
 
     title = 'Graph of ' + dataList[0]['player_name']
     return render_template('playerGraph.html', title=title, barGraph=graph, maxNetRating=max, minNetRating=min)
+
+
+@app.route('/draftGraph/')
+def draftGraph():
+    with open('draftRoundRating.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    dataList = list(data)
+
+    graph = generateGraph.generateScatter(dataList)
+    max = calculateNetRating.getMaxNetRating(dataList)
+    min = calculateNetRating.getMinNetRating(dataList)
+
+    title = 'Graph of ' + dataList[0]['season'] + ' season and draft round ' + dataList[0]['draft_round']
+    return render_template('graphForDraft.html', title=title, scatter=graph, maxNetRating=max, minNetRating=min)
 
 if __name__ == "__main__":
     app.run(debug=True)
