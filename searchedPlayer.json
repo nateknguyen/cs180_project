@@ -1,162 +1,66 @@
 [
     {
-        "player_name": "Kobe Bryant",
-        "age": "1",
-        "pts": "1",
-        "reb": "1",
-        "ast": "1",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "19.0",
-        "pts": "15.4",
-        "reb": "3.1",
-        "ast": "2.5",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "20.0",
-        "pts": "19.9",
-        "reb": "5.3",
-        "ast": "3.8",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "21.0",
-        "pts": "22.5",
-        "reb": "6.3",
-        "ast": "4.9",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "22.0",
-        "pts": "28.5",
-        "reb": "5.9",
-        "ast": "5.0",
-        "net_rating": "N/A"
+        "pts": "4.8",
+        "reb": "4.5",
+        "ast": "0.5",
+        "net_rating": "3.85"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "23.0",
-        "pts": "25.2",
-        "reb": "5.5",
-        "ast": "5.5",
-        "net_rating": "N/A"
+        "pts": "6.5",
+        "reb": "4.9",
+        "ast": "1.4",
+        "net_rating": "5.00"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "24.0",
-        "pts": "30.0",
-        "reb": "6.9",
-        "ast": "5.9",
-        "net_rating": "N/A"
+        "pts": "4.2",
+        "reb": "3.5",
+        "ast": "0.8",
+        "net_rating": "3.31"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "25.0",
-        "pts": "24.0",
-        "reb": "5.5",
-        "ast": "5.1",
-        "net_rating": "N/A"
+        "pts": "1.7",
+        "reb": "2.0",
+        "ast": "0.4",
+        "net_rating": "1.53"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "26.0",
-        "pts": "27.6",
-        "reb": "5.9",
-        "ast": "6.0",
-        "net_rating": "N/A"
+        "pts": "0.6",
+        "reb": "1.2",
+        "ast": "0.1",
+        "net_rating": "0.68"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "27.0",
-        "pts": "35.4",
-        "reb": "5.3",
-        "ast": "4.5",
-        "net_rating": "N/A"
+        "pts": "2.0",
+        "reb": "2.1",
+        "ast": "0.2",
+        "net_rating": "1.67"
     },
     {
-        "player_name": "Kobe Bryant",
+        "player_name": "Travis Knight",
         "age": "28.0",
-        "pts": "31.6",
-        "reb": "5.7",
-        "ast": "5.4",
-        "net_rating": "N/A"
+        "pts": "1.9",
+        "reb": "1.9",
+        "ast": "0.4",
+        "net_rating": "1.60"
     },
     {
-        "player_name": "Kobe Bryant",
-        "age": "29.0",
-        "pts": "28.3",
-        "reb": "6.3",
-        "ast": "5.4",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "30.0",
-        "pts": "26.8",
-        "reb": "5.2",
-        "ast": "4.9",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "31.0",
-        "pts": "27.0",
-        "reb": "5.4",
-        "ast": "5.0",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "32.0",
-        "pts": "25.3",
-        "reb": "5.1",
-        "ast": "4.7",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "33.0",
-        "pts": "27.9",
-        "reb": "5.4",
-        "ast": "4.6",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "34.0",
-        "pts": "27.3",
-        "reb": "5.6",
-        "ast": "6.0",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "35.0",
-        "pts": "13.8",
-        "reb": "4.3",
-        "ast": "6.3",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "36.0",
-        "pts": "22.3",
-        "reb": "5.7",
-        "ast": "5.6",
-        "net_rating": "N/A"
-    },
-    {
-        "player_name": "Kobe Bryant",
-        "age": "37.0",
-        "pts": "17.6",
-        "reb": "3.7",
-        "ast": "2.8",
-        "net_rating": "N/A"
+        "player_name": "Travis Knight",
+        "age": "11",
+        "pts": "11",
+        "reb": "11",
+        "ast": "11",
+        "net_rating": "11.0"
     }
 ]

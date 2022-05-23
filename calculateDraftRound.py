@@ -18,7 +18,7 @@ def readPlayersDraftRoundRating(season, draftRound):
 
     playerDataStore.writeDataToJSON(CALCULATED_DRAFT_ROUND_RATING, result)
 
-    result = calculateNetRating.calculateNetRating(CALCULATED_DRAFT_ROUND_RATING)
+    result = calculateNetRating.calculateNetRatingDraftRound(CALCULATED_DRAFT_ROUND_RATING)
 
     return result
 

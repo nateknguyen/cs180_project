@@ -6,7 +6,7 @@
         "pts": "4.8",
         "reb": "4.5",
         "ast": "0.5",
-        "net_rating": "3.85"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Martin Muursepp",
@@ -15,7 +15,7 @@
         "pts": "3.7",
         "reb": "1.6",
         "ast": "0.5",
-        "net_rating": "2.43"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Mark Jackson",
@@ -24,7 +24,7 @@
         "pts": "9.9",
         "reb": "4.8",
         "ast": "11.4",
-        "net_rating": "8.67"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Mark Bryant",
@@ -33,7 +33,7 @@
         "pts": "9.3",
         "reb": "5.2",
         "ast": "1.1",
-        "net_rating": "6.43"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Marcus Camby",
@@ -42,7 +42,7 @@
         "pts": "14.8",
         "reb": "6.3",
         "ast": "1.5",
-        "net_rating": "9.59"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Malik Sealy",
@@ -51,7 +51,7 @@
         "pts": "13.5",
         "reb": "3.0",
         "ast": "2.1",
-        "net_rating": "8.07"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Mahmoud Abdul-Rauf",
@@ -60,7 +60,7 @@
         "pts": "13.7",
         "reb": "1.6",
         "ast": "2.5",
-        "net_rating": "7.83"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Luc Longley",
@@ -69,7 +69,7 @@
         "pts": "9.1",
         "reb": "5.6",
         "ast": "2.4",
-        "net_rating": "6.71"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Loy Vaught",
@@ -78,7 +78,7 @@
         "pts": "14.9",
         "reb": "10.0",
         "ast": "1.3",
-        "net_rating": "10.71"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Pervis Ellison",
@@ -87,7 +87,7 @@
         "pts": "2.5",
         "reb": "4.3",
         "ast": "0.7",
-        "net_rating": "2.68"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Patrick Ewing",
@@ -96,7 +96,7 @@
         "pts": "22.4",
         "reb": "10.7",
         "ast": "2.0",
-        "net_rating": "14.81"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Otis Thorpe",
@@ -105,7 +105,7 @@
         "pts": "13.1",
         "reb": "7.9",
         "ast": "1.7",
-        "net_rating": "9.26"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Oliver Miller",
@@ -114,7 +114,7 @@
         "pts": "4.8",
         "reb": "5.0",
         "ast": "1.4",
-        "net_rating": "4.18"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Olden Polynice",
@@ -123,7 +123,7 @@
         "pts": "12.5",
         "reb": "9.4",
         "ast": "2.2",
-        "net_rating": "9.51"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Nick Anderson",
@@ -132,7 +132,7 @@
         "pts": "12.0",
         "reb": "4.8",
         "ast": "2.9",
-        "net_rating": "8.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Muggsy Bogues",
@@ -141,7 +141,7 @@
         "pts": "8.0",
         "reb": "2.2",
         "ast": "7.2",
-        "net_rating": "6.10"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Monty Williams",
@@ -150,7 +150,7 @@
         "pts": "9.0",
         "reb": "3.2",
         "ast": "1.4",
-        "net_rating": "5.74"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Mitch Richmond",
@@ -159,7 +159,7 @@
         "pts": "25.9",
         "reb": "3.9",
         "ast": "4.2",
-        "net_rating": "14.96"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Michael Jordan",
@@ -168,7 +168,7 @@
         "pts": "29.6",
         "reb": "5.9",
         "ast": "4.3",
-        "net_rating": "17.43"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Michael Finley",
@@ -177,7 +177,7 @@
         "pts": "15.0",
         "reb": "4.5",
         "ast": "2.7",
-        "net_rating": "9.39"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Michael Cage",
@@ -186,7 +186,7 @@
         "pts": "1.8",
         "reb": "3.9",
         "ast": "0.5",
-        "net_rating": "2.17"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Mookie Blaylock",
@@ -195,7 +195,7 @@
         "pts": "17.4",
         "reb": "5.3",
         "ast": "5.9",
-        "net_rating": "11.47"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Pooh Richardson",
@@ -204,7 +204,7 @@
         "pts": "5.6",
         "reb": "1.7",
         "ast": "2.9",
-        "net_rating": "3.89"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Lorenzen Wright",
@@ -213,7 +213,7 @@
         "pts": "7.3",
         "reb": "6.1",
         "ast": "0.6",
-        "net_rating": "5.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Karl Malone",
@@ -222,7 +222,7 @@
         "pts": "27.4",
         "reb": "9.9",
         "ast": "4.5",
-        "net_rating": "17.57"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Juwan Howard",
@@ -231,7 +231,7 @@
         "pts": "19.1",
         "reb": "8.0",
         "ast": "3.8",
-        "net_rating": "12.71"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jon Barry",
@@ -240,7 +240,7 @@
         "pts": "4.9",
         "reb": "1.7",
         "ast": "2.0",
-        "net_rating": "3.36"
+        "net_rating": "N/A"
     },
     {
         "player_name": "John Wallace",
@@ -249,7 +249,7 @@
         "pts": "4.8",
         "reb": "2.3",
         "ast": "0.5",
-        "net_rating": "3.19"
+        "net_rating": "N/A"
     },
     {
         "player_name": "John Stockton",
@@ -258,7 +258,7 @@
         "pts": "14.4",
         "reb": "2.8",
         "ast": "10.5",
-        "net_rating": "10.14"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Joe Wolf",
@@ -267,7 +267,7 @@
         "pts": "1.7",
         "reb": "2.0",
         "ast": "0.4",
-        "net_rating": "1.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Joe Smith",
@@ -276,7 +276,7 @@
         "pts": "18.7",
         "reb": "8.5",
         "ast": "1.6",
-        "net_rating": "12.22"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Joe Kleine",
@@ -285,7 +285,7 @@
         "pts": "2.8",
         "reb": "3.4",
         "ast": "0.6",
-        "net_rating": "2.54"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Joe Dumars",
@@ -294,7 +294,7 @@
         "pts": "14.7",
         "reb": "2.4",
         "ast": "4.0",
-        "net_rating": "8.87"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jim Jackson",
@@ -303,7 +303,7 @@
         "pts": "15.9",
         "reb": "5.3",
         "ast": "4.1",
-        "net_rating": "10.36"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jerry Stackhouse",
@@ -312,7 +312,7 @@
         "pts": "20.7",
         "reb": "4.2",
         "ast": "3.1",
-        "net_rating": "12.23"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ken Norman",
@@ -321,7 +321,7 @@
         "pts": "3.8",
         "reb": "2.3",
         "ast": "0.7",
-        "net_rating": "2.73"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kendall Gill",
@@ -330,7 +330,7 @@
         "pts": "21.8",
         "reb": "6.1",
         "ast": "4.0",
-        "net_rating": "13.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kenny Anderson",
@@ -339,7 +339,7 @@
         "pts": "17.5",
         "reb": "4.4",
         "ast": "7.1",
-        "net_rating": "11.49"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Lionel Simmons",
@@ -348,7 +348,7 @@
         "pts": "3.4",
         "reb": "2.5",
         "ast": "1.4",
-        "net_rating": "2.73"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Lindsey Hunter",
@@ -357,7 +357,7 @@
         "pts": "14.2",
         "reb": "2.8",
         "ast": "1.9",
-        "net_rating": "8.32"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Lee Mayberry",
@@ -366,7 +366,7 @@
         "pts": "5.1",
         "reb": "1.7",
         "ast": "4.1",
-        "net_rating": "3.88"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Latrell Sprewell",
@@ -375,7 +375,7 @@
         "pts": "24.2",
         "reb": "4.6",
         "ast": "6.3",
-        "net_rating": "14.74"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Larry Johnson",
@@ -384,7 +384,7 @@
         "pts": "12.8",
         "reb": "5.2",
         "ast": "2.3",
-        "net_rating": "8.42"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Lamond Murray",
@@ -393,7 +393,7 @@
         "pts": "7.4",
         "reb": "3.1",
         "ast": "0.8",
-        "net_rating": "4.79"
+        "net_rating": "N/A"
     },
     {
         "player_name": "LaSalle Thompson",
@@ -402,7 +402,7 @@
         "pts": "0.4",
         "reb": "1.3",
         "ast": "0.1",
-        "net_rating": "0.61"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Loren Meyer",
@@ -411,7 +411,7 @@
         "pts": "4.9",
         "reb": "2.7",
         "ast": "0.4",
-        "net_rating": "3.34"
+        "net_rating": "N/A"
     },
     {
         "player_name": "LaPhonso Ellis",
@@ -420,7 +420,7 @@
         "pts": "21.9",
         "reb": "7.0",
         "ast": "2.4",
-        "net_rating": "13.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kobe Bryant",
@@ -429,7 +429,7 @@
         "pts": "7.6",
         "reb": "1.9",
         "ast": "1.3",
-        "net_rating": "4.63"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Khalid Reeves",
@@ -438,7 +438,7 @@
         "pts": "8.2",
         "reb": "1.9",
         "ast": "3.6",
-        "net_rating": "5.39"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kevin Willis",
@@ -447,7 +447,7 @@
         "pts": "11.2",
         "reb": "7.5",
         "ast": "0.9",
-        "net_rating": "8.03"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kevin Johnson",
@@ -456,7 +456,7 @@
         "pts": "20.1",
         "reb": "3.6",
         "ast": "9.3",
-        "net_rating": "12.99"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kevin Garnett",
@@ -465,7 +465,7 @@
         "pts": "17.0",
         "reb": "8.0",
         "ast": "3.1",
-        "net_rating": "11.52"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kevin Edwards",
@@ -474,7 +474,7 @@
         "pts": "5.9",
         "reb": "1.3",
         "ast": "1.8",
-        "net_rating": "3.70"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kerry Kittles",
@@ -483,7 +483,7 @@
         "pts": "16.4",
         "reb": "3.9",
         "ast": "3.0",
-        "net_rating": "9.97"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kenny Smith",
@@ -492,7 +492,7 @@
         "pts": "6.3",
         "reb": "0.9",
         "ast": "2.4",
-        "net_rating": "3.90"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Kurt Thomas",
@@ -501,7 +501,7 @@
         "pts": "6.3",
         "reb": "5.9",
         "ast": "0.5",
-        "net_rating": "5.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Priest Lauderdale",
@@ -510,7 +510,7 @@
         "pts": "3.2",
         "reb": "1.2",
         "ast": "0.3",
-        "net_rating": "2.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Wayman Tisdale",
@@ -519,7 +519,7 @@
         "pts": "6.5",
         "reb": "2.3",
         "ast": "0.4",
-        "net_rating": "4.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Walter McCarty",
@@ -528,7 +528,7 @@
         "pts": "1.8",
         "reb": "0.7",
         "ast": "0.4",
-        "net_rating": "1.19"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Walt Williams",
@@ -537,7 +537,7 @@
         "pts": "16.4",
         "reb": "5.0",
         "ast": "2.7",
-        "net_rating": "10.24"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Vlade Divac",
@@ -546,7 +546,7 @@
         "pts": "12.6",
         "reb": "9.0",
         "ast": "3.7",
-        "net_rating": "9.74"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Vitaly Potapenko",
@@ -555,7 +555,7 @@
         "pts": "5.8",
         "reb": "2.7",
         "ast": "0.5",
-        "net_rating": "3.81"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Vin Baker",
@@ -564,7 +564,7 @@
         "pts": "21.0",
         "reb": "10.3",
         "ast": "2.7",
-        "net_rating": "14.13"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tyrone Hill",
@@ -573,7 +573,7 @@
         "pts": "12.9",
         "reb": "9.9",
         "ast": "1.2",
-        "net_rating": "9.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Terry Cummings",
@@ -582,7 +582,7 @@
         "pts": "8.2",
         "reb": "4.1",
         "ast": "0.9",
-        "net_rating": "5.51"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Terrell Brandon",
@@ -591,7 +591,7 @@
         "pts": "19.5",
         "reb": "3.9",
         "ast": "6.3",
-        "net_rating": "12.18"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Steven Smith",
@@ -600,7 +600,7 @@
         "pts": "20.1",
         "reb": "3.3",
         "ast": "4.2",
-        "net_rating": "11.88"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Steve Nash",
@@ -609,7 +609,7 @@
         "pts": "3.3",
         "reb": "1.0",
         "ast": "2.1",
-        "net_rating": "2.37"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Stephon Marbury",
@@ -618,7 +618,7 @@
         "pts": "15.8",
         "reb": "2.7",
         "ast": "7.8",
-        "net_rating": "10.27"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Wesley Person",
@@ -627,7 +627,7 @@
         "pts": "13.5",
         "reb": "3.7",
         "ast": "1.5",
-        "net_rating": "8.16"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Will Perdue",
@@ -636,7 +636,7 @@
         "pts": "8.7",
         "reb": "9.8",
         "ast": "0.6",
-        "net_rating": "7.41"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Willie Anderson",
@@ -645,7 +645,7 @@
         "pts": "3.0",
         "reb": "1.5",
         "ast": "1.2",
-        "net_rating": "2.19"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Willie Burton",
@@ -654,7 +654,7 @@
         "pts": "6.2",
         "reb": "1.7",
         "ast": "0.5",
-        "net_rating": "3.71"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Terry Dehere",
@@ -663,7 +663,7 @@
         "pts": "6.4",
         "reb": "1.3",
         "ast": "2.2",
-        "net_rating": "4.03"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Terry Mills",
@@ -672,7 +672,7 @@
         "pts": "10.8",
         "reb": "4.8",
         "ast": "1.3",
-        "net_rating": "7.10"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Terry Porter",
@@ -681,7 +681,7 @@
         "pts": "6.9",
         "reb": "2.1",
         "ast": "3.6",
-        "net_rating": "4.80"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Theo Ratliff",
@@ -690,7 +690,7 @@
         "pts": "5.8",
         "reb": "3.4",
         "ast": "0.2",
-        "net_rating": "3.96"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tim Hardaway",
@@ -699,7 +699,7 @@
         "pts": "20.3",
         "reb": "3.4",
         "ast": "8.6",
-        "net_rating": "12.89"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Todd Day",
@@ -708,7 +708,7 @@
         "pts": "14.5",
         "reb": "4.1",
         "ast": "1.4",
-        "net_rating": "8.76"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Todd Fuller",
@@ -717,7 +717,7 @@
         "pts": "4.0",
         "reb": "3.3",
         "ast": "0.3",
-        "net_rating": "3.05"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tom Chambers",
@@ -726,7 +726,7 @@
         "pts": "1.6",
         "reb": "1.2",
         "ast": "0.3",
-        "net_rating": "1.22"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Stanley Roberts",
@@ -735,7 +735,7 @@
         "pts": "9.5",
         "reb": "5.1",
         "ast": "0.5",
-        "net_rating": "6.38"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tom Gugliotta",
@@ -744,7 +744,7 @@
         "pts": "20.6",
         "reb": "8.7",
         "ast": "4.1",
-        "net_rating": "13.73"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tony Delk",
@@ -753,7 +753,7 @@
         "pts": "5.4",
         "reb": "1.6",
         "ast": "1.6",
-        "net_rating": "3.50"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tony Dumas",
@@ -762,7 +762,7 @@
         "pts": "3.6",
         "reb": "0.7",
         "ast": "1.0",
-        "net_rating": "2.21"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tracy Murray",
@@ -771,7 +771,7 @@
         "pts": "10.0",
         "reb": "3.1",
         "ast": "1.0",
-        "net_rating": "6.13"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Travis Best",
@@ -780,7 +780,7 @@
         "pts": "9.9",
         "reb": "2.2",
         "ast": "4.2",
-        "net_rating": "6.45"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Yinka Dare",
@@ -789,7 +789,7 @@
         "pts": "1.4",
         "reb": "2.0",
         "ast": "0.1",
-        "net_rating": "1.32"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Xavier McDaniel",
@@ -798,7 +798,7 @@
         "pts": "5.6",
         "reb": "5.1",
         "ast": "1.0",
-        "net_rating": "4.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Tom Hammonds",
@@ -807,7 +807,7 @@
         "pts": "6.2",
         "reb": "5.0",
         "ast": "0.8",
-        "net_rating": "4.76"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Stacey King",
@@ -816,7 +816,7 @@
         "pts": "2.2",
         "reb": "2.5",
         "ast": "0.1",
-        "net_rating": "1.87"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Stacey Augmon",
@@ -825,7 +825,7 @@
         "pts": "4.7",
         "reb": "2.3",
         "ast": "0.9",
-        "net_rating": "3.22"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rodney Rogers",
@@ -834,7 +834,7 @@
         "pts": "13.2",
         "reb": "5.1",
         "ast": "2.7",
-        "net_rating": "8.67"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rod Strickland",
@@ -843,7 +843,7 @@
         "pts": "17.2",
         "reb": "4.1",
         "ast": "8.9",
-        "net_rating": "11.61"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Robert Parish",
@@ -852,7 +852,7 @@
         "pts": "3.7",
         "reb": "2.1",
         "ast": "0.5",
-        "net_rating": "2.58"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Robert Horry",
@@ -861,7 +861,7 @@
         "pts": "7.8",
         "reb": "4.4",
         "ast": "2.0",
-        "net_rating": "5.62"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rik Smits",
@@ -870,7 +870,7 @@
         "pts": "17.1",
         "reb": "6.9",
         "ast": "1.3",
-        "net_rating": "10.88"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ricky Pierce",
@@ -879,7 +879,7 @@
         "pts": "11.0",
         "reb": "2.0",
         "ast": "1.3",
-        "net_rating": "6.36"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rick Fox",
@@ -888,7 +888,7 @@
         "pts": "15.4",
         "reb": "5.2",
         "ast": "3.8",
-        "net_rating": "10.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ron Harper",
@@ -897,7 +897,7 @@
         "pts": "6.3",
         "reb": "2.5",
         "ast": "2.5",
-        "net_rating": "4.40"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rex Walters",
@@ -906,7 +906,7 @@
         "pts": "6.8",
         "reb": "1.8",
         "ast": "1.9",
-        "net_rating": "4.32"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Reggie Williams",
@@ -915,7 +915,7 @@
         "pts": "5.8",
         "reb": "2.4",
         "ast": "0.8",
-        "net_rating": "3.78"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Reggie Miller",
@@ -924,7 +924,7 @@
         "pts": "21.6",
         "reb": "3.5",
         "ast": "3.4",
-        "net_rating": "12.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ray Allen",
@@ -933,7 +933,7 @@
         "pts": "13.4",
         "reb": "4.0",
         "ast": "2.6",
-        "net_rating": "8.42"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rasheed Wallace",
@@ -942,7 +942,7 @@
         "pts": "15.1",
         "reb": "6.8",
         "ast": "1.2",
-        "net_rating": "9.83"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Randolph Childress",
@@ -951,7 +951,7 @@
         "pts": "1.7",
         "reb": "0.3",
         "ast": "0.7",
-        "net_rating": "1.08"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rex Chapman",
@@ -960,7 +960,7 @@
         "pts": "13.8",
         "reb": "2.8",
         "ast": "2.8",
-        "net_rating": "8.30"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jerome Williams",
@@ -969,7 +969,7 @@
         "pts": "1.5",
         "reb": "1.5",
         "ast": "0.2",
-        "net_rating": "1.24"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rony Seikaly",
@@ -978,7 +978,7 @@
         "pts": "17.3",
         "reb": "9.5",
         "ast": "1.2",
-        "net_rating": "11.74"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Shawn Respert",
@@ -987,7 +987,7 @@
         "pts": "4.2",
         "reb": "1.0",
         "ast": "1.0",
-        "net_rating": "2.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Shawn Kemp",
@@ -996,7 +996,7 @@
         "pts": "18.7",
         "reb": "10.0",
         "ast": "1.9",
-        "net_rating": "12.73"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Shawn Bradley",
@@ -1005,7 +1005,7 @@
         "pts": "13.2",
         "reb": "8.4",
         "ast": "0.7",
-        "net_rating": "9.26"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Sharone Wright",
@@ -1014,7 +1014,7 @@
         "pts": "6.5",
         "reb": "3.1",
         "ast": "0.5",
-        "net_rating": "4.28"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Shareef Abdur-Rahim",
@@ -1023,7 +1023,7 @@
         "pts": "18.7",
         "reb": "6.9",
         "ast": "2.2",
-        "net_rating": "11.86"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Shaquille O'Neal",
@@ -1032,7 +1032,7 @@
         "pts": "26.2",
         "reb": "12.5",
         "ast": "3.1",
-        "net_rating": "17.47"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Roy Rogers",
@@ -1041,7 +1041,7 @@
         "pts": "6.6",
         "reb": "4.7",
         "ast": "0.6",
-        "net_rating": "4.83"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Sean Elliott",
@@ -1050,7 +1050,7 @@
         "pts": "14.9",
         "reb": "4.9",
         "ast": "3.2",
-        "net_rating": "9.56"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Scott Burrell",
@@ -1059,7 +1059,7 @@
         "pts": "5.2",
         "reb": "2.8",
         "ast": "1.3",
-        "net_rating": "3.70"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Samaki Walker",
@@ -1068,7 +1068,7 @@
         "pts": "4.9",
         "reb": "3.4",
         "ast": "0.4",
-        "net_rating": "3.55"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Sam Perkins",
@@ -1077,7 +1077,7 @@
         "pts": "11.0",
         "reb": "3.7",
         "ast": "1.3",
-        "net_rating": "6.87"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Sam Cassell",
@@ -1086,7 +1086,7 @@
         "pts": "15.9",
         "reb": "3.0",
         "ast": "5.0",
-        "net_rating": "9.85"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Rumeal Robinson",
@@ -1095,7 +1095,7 @@
         "pts": "3.3",
         "reb": "0.9",
         "ast": "1.4",
-        "net_rating": "2.20"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Scottie Pippen",
@@ -1104,7 +1104,7 @@
         "pts": "20.2",
         "reb": "6.5",
         "ast": "5.7",
-        "net_rating": "13.19"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Pete Chilcutt",
@@ -1113,7 +1113,7 @@
         "pts": "3.4",
         "reb": "2.9",
         "ast": "0.9",
-        "net_rating": "2.75"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jermaine O'Neal",
@@ -1122,7 +1122,7 @@
         "pts": "4.1",
         "reb": "2.8",
         "ast": "0.2",
-        "net_rating": "2.93"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Chris Webber",
@@ -1131,7 +1131,7 @@
         "pts": "20.1",
         "reb": "10.3",
         "ast": "4.6",
-        "net_rating": "14.06"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Chris Mullin",
@@ -1140,7 +1140,7 @@
         "pts": "14.5",
         "reb": "4.0",
         "ast": "4.1",
-        "net_rating": "9.27"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Chris Morris",
@@ -1149,7 +1149,7 @@
         "pts": "4.3",
         "reb": "2.2",
         "ast": "0.6",
-        "net_rating": "2.93"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Chris Mills",
@@ -1158,7 +1158,7 @@
         "pts": "13.4",
         "reb": "6.2",
         "ast": "2.5",
-        "net_rating": "9.06"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Chris Gatling",
@@ -1167,7 +1167,7 @@
         "pts": "19.0",
         "reb": "7.9",
         "ast": "0.6",
-        "net_rating": "11.99"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Cherokee Parks",
@@ -1176,7 +1176,7 @@
         "pts": "3.3",
         "reb": "2.6",
         "ast": "0.4",
-        "net_rating": "2.51"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Charlie Ward",
@@ -1185,7 +1185,7 @@
         "pts": "5.2",
         "reb": "2.8",
         "ast": "4.1",
-        "net_rating": "4.26"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Charles Smith",
@@ -1194,7 +1194,7 @@
         "pts": "4.6",
         "reb": "3.4",
         "ast": "0.7",
-        "net_rating": "3.46"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Charles Oakley",
@@ -1203,7 +1203,7 @@
         "pts": "10.8",
         "reb": "9.8",
         "ast": "2.8",
-        "net_rating": "8.90"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Charles Barkley",
@@ -1212,7 +1212,7 @@
         "pts": "19.2",
         "reb": "13.5",
         "ast": "4.7",
-        "net_rating": "14.59"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Carlos Rogers",
@@ -1221,7 +1221,7 @@
         "pts": "9.8",
         "reb": "5.4",
         "ast": "0.7",
-        "net_rating": "6.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Calbert Cheaney",
@@ -1230,7 +1230,7 @@
         "pts": "10.6",
         "reb": "3.4",
         "ast": "1.4",
-        "net_rating": "6.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Byron Scott",
@@ -1239,7 +1239,7 @@
         "pts": "6.7",
         "reb": "1.5",
         "ast": "1.3",
-        "net_rating": "4.06"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Christian Laettner",
@@ -1248,7 +1248,7 @@
         "pts": "18.1",
         "reb": "8.8",
         "ast": "2.7",
-        "net_rating": "12.23"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Clar. Weatherspoon",
@@ -1257,7 +1257,7 @@
         "pts": "12.2",
         "reb": "8.3",
         "ast": "1.7",
-        "net_rating": "8.93"
+        "net_rating": "N/A"
     },
     {
         "player_name": "David Vaughn",
@@ -1266,7 +1266,7 @@
         "pts": "2.3",
         "reb": "2.7",
         "ast": "0.2",
-        "net_rating": "2.00"
+        "net_rating": "N/A"
     },
     {
         "player_name": "David Robinson",
@@ -1275,7 +1275,7 @@
         "pts": "17.7",
         "reb": "8.5",
         "ast": "1.3",
-        "net_rating": "11.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Danny Manning",
@@ -1284,7 +1284,7 @@
         "pts": "13.5",
         "reb": "6.1",
         "ast": "2.2",
-        "net_rating": "9.02"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Danny Ferry",
@@ -1293,7 +1293,7 @@
         "pts": "10.6",
         "reb": "4.1",
         "ast": "1.8",
-        "net_rating": "6.89"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dana Barros",
@@ -1302,7 +1302,7 @@
         "pts": "12.5",
         "reb": "2.0",
         "ast": "3.4",
-        "net_rating": "7.53"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bryant Stith",
@@ -1311,7 +1311,7 @@
         "pts": "14.9",
         "reb": "4.2",
         "ast": "2.6",
-        "net_rating": "9.23"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dan Schayes",
@@ -1320,7 +1320,7 @@
         "pts": "3.0",
         "reb": "2.8",
         "ast": "0.3",
-        "net_rating": "2.40"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Damon Stoudamire",
@@ -1329,7 +1329,7 @@
         "pts": "20.2",
         "reb": "4.1",
         "ast": "8.8",
-        "net_rating": "13.09"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dale Ellis",
@@ -1338,7 +1338,7 @@
         "pts": "16.6",
         "reb": "3.6",
         "ast": "2.0",
-        "net_rating": "9.78"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dale Davis",
@@ -1347,7 +1347,7 @@
         "pts": "10.4",
         "reb": "9.7",
         "ast": "0.7",
-        "net_rating": "8.25"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Cory Alexander",
@@ -1356,7 +1356,7 @@
         "pts": "7.2",
         "reb": "1.5",
         "ast": "3.2",
-        "net_rating": "4.69"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Corliss Williamson",
@@ -1365,7 +1365,7 @@
         "pts": "11.6",
         "reb": "4.1",
         "ast": "1.6",
-        "net_rating": "7.35"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Corie Blount",
@@ -1374,7 +1374,7 @@
         "pts": "4.2",
         "reb": "4.8",
         "ast": "0.6",
-        "net_rating": "3.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Clyde Drexler",
@@ -1383,7 +1383,7 @@
         "pts": "18.0",
         "reb": "6.0",
         "ast": "5.7",
-        "net_rating": "11.94"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Clifford Rozier",
@@ -1392,7 +1392,7 @@
         "pts": "4.5",
         "reb": "5.6",
         "ast": "0.7",
-        "net_rating": "4.07"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dan Majerle",
@@ -1401,7 +1401,7 @@
         "pts": "10.8",
         "reb": "4.5",
         "ast": "3.2",
-        "net_rating": "7.39"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bryant Reeves",
@@ -1410,7 +1410,7 @@
         "pts": "16.2",
         "reb": "8.1",
         "ast": "2.1",
-        "net_rating": "10.95"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Brooks Thompson",
@@ -1419,7 +1419,7 @@
         "pts": "6.6",
         "reb": "1.4",
         "ast": "2.7",
-        "net_rating": "4.26"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Antoine Walker",
@@ -1428,7 +1428,7 @@
         "pts": "17.5",
         "reb": "9.0",
         "ast": "3.2",
-        "net_rating": "12.09"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Antoine Carr",
@@ -1437,7 +1437,7 @@
         "pts": "7.4",
         "reb": "2.4",
         "ast": "0.9",
-        "net_rating": "4.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Anthony Peeler",
@@ -1446,7 +1446,7 @@
         "pts": "14.5",
         "reb": "3.4",
         "ast": "3.6",
-        "net_rating": "8.99"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Anfernee Hardaway",
@@ -1455,7 +1455,7 @@
         "pts": "20.5",
         "reb": "4.5",
         "ast": "5.6",
-        "net_rating": "12.72"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Alton Lister",
@@ -1464,7 +1464,7 @@
         "pts": "1.6",
         "reb": "3.2",
         "ast": "0.2",
-        "net_rating": "1.80"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Allen Iverson",
@@ -1473,7 +1473,7 @@
         "pts": "23.5",
         "reb": "4.1",
         "ast": "7.5",
-        "net_rating": "14.48"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Allan Houston",
@@ -1482,7 +1482,7 @@
         "pts": "14.8",
         "reb": "3.0",
         "ast": "2.2",
-        "net_rating": "8.74"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Alan Henderson",
@@ -1491,7 +1491,7 @@
         "pts": "6.6",
         "reb": "3.9",
         "ast": "0.8",
-        "net_rating": "4.63"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Adam Keefe",
@@ -1500,7 +1500,7 @@
         "pts": "3.8",
         "reb": "3.5",
         "ast": "0.5",
-        "net_rating": "3.05"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Acie Earl",
@@ -1509,7 +1509,7 @@
         "pts": "4.0",
         "reb": "2.0",
         "ast": "0.4",
-        "net_rating": "2.68"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Aaron McKie",
@@ -1518,7 +1518,7 @@
         "pts": "5.2",
         "reb": "2.7",
         "ast": "1.9",
-        "net_rating": "3.79"
+        "net_rating": "N/A"
     },
     {
         "player_name": "A.C. Green",
@@ -1527,7 +1527,7 @@
         "pts": "7.2",
         "reb": "7.9",
         "ast": "0.8",
-        "net_rating": "6.13"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Alonzo Mourning",
@@ -1536,7 +1536,7 @@
         "pts": "19.8",
         "reb": "9.9",
         "ast": "1.6",
-        "net_rating": "13.19"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Armen Gilliam",
@@ -1545,7 +1545,7 @@
         "pts": "8.6",
         "reb": "6.2",
         "ast": "0.7",
-        "net_rating": "6.30"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Brian Shaw",
@@ -1554,7 +1554,7 @@
         "pts": "7.2",
         "reb": "2.5",
         "ast": "4.1",
-        "net_rating": "5.17"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Brian Grant",
@@ -1563,7 +1563,7 @@
         "pts": "10.5",
         "reb": "5.9",
         "ast": "1.2",
-        "net_rating": "7.26"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Brian Evans",
@@ -1572,7 +1572,7 @@
         "pts": "1.4",
         "reb": "0.6",
         "ast": "0.5",
-        "net_rating": "0.98"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Brent Barry",
@@ -1581,7 +1581,7 @@
         "pts": "7.5",
         "reb": "1.9",
         "ast": "2.6",
-        "net_rating": "4.84"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bobby Hurley",
@@ -1590,7 +1590,7 @@
         "pts": "2.9",
         "reb": "0.8",
         "ast": "3.0",
-        "net_rating": "2.29"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bob Sura",
@@ -1599,7 +1599,7 @@
         "pts": "9.2",
         "reb": "3.8",
         "ast": "4.8",
-        "net_rating": "6.70"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Antonio McDyess",
@@ -1608,7 +1608,7 @@
         "pts": "18.3",
         "reb": "7.3",
         "ast": "1.4",
-        "net_rating": "11.62"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bison Dele",
@@ -1617,7 +1617,7 @@
         "pts": "7.0",
         "reb": "3.7",
         "ast": "1.3",
-        "net_rating": "4.87"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Billy Owens",
@@ -1626,7 +1626,7 @@
         "pts": "11.0",
         "reb": "5.9",
         "ast": "2.8",
-        "net_rating": "7.83"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Bill Wennington",
@@ -1635,7 +1635,7 @@
         "pts": "4.6",
         "reb": "2.1",
         "ast": "0.7",
-        "net_rating": "3.07"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Benoit Benjamin",
@@ -1644,7 +1644,7 @@
         "pts": "3.3",
         "reb": "2.3",
         "ast": "0.3",
-        "net_rating": "2.40"
+        "net_rating": "N/A"
     },
     {
         "player_name": "B.J. Armstrong",
@@ -1653,7 +1653,7 @@
         "pts": "7.9",
         "reb": "1.5",
         "ast": "2.6",
-        "net_rating": "4.92"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Arvydas Sabonis",
@@ -1662,7 +1662,7 @@
         "pts": "13.4",
         "reb": "7.9",
         "ast": "2.1",
-        "net_rating": "9.49"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Blue Edwards",
@@ -1671,7 +1671,7 @@
         "pts": "7.8",
         "reb": "3.1",
         "ast": "1.9",
-        "net_rating": "5.21"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Buck Williams",
@@ -1680,7 +1680,7 @@
         "pts": "6.3",
         "reb": "5.4",
         "ast": "0.7",
-        "net_rating": "4.91"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dell Curry",
@@ -1689,7 +1689,7 @@
         "pts": "14.8",
         "reb": "3.1",
         "ast": "1.7",
-        "net_rating": "8.67"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Hakeem Olajuwon",
@@ -1698,7 +1698,7 @@
         "pts": "23.2",
         "reb": "9.2",
         "ast": "3.0",
-        "net_rating": "14.96"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Greg Ostertag",
@@ -1707,7 +1707,7 @@
         "pts": "7.3",
         "reb": "7.3",
         "ast": "0.4",
-        "net_rating": "5.92"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Greg Minor",
@@ -1716,7 +1716,7 @@
         "pts": "9.6",
         "reb": "3.5",
         "ast": "1.5",
-        "net_rating": "6.15"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Greg Graham",
@@ -1725,7 +1725,7 @@
         "pts": "3.3",
         "reb": "0.5",
         "ast": "0.4",
-        "net_rating": "1.88"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Greg Anthony",
@@ -1734,7 +1734,7 @@
         "pts": "9.5",
         "reb": "2.8",
         "ast": "6.3",
-        "net_rating": "6.85"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Greg Anderson",
@@ -1743,7 +1743,7 @@
         "pts": "3.9",
         "reb": "5.5",
         "ast": "0.4",
-        "net_rating": "3.68"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Grant Hill",
@@ -1752,7 +1752,7 @@
         "pts": "21.4",
         "reb": "9.0",
         "ast": "7.3",
-        "net_rating": "14.86"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Glenn Robinson",
@@ -1761,7 +1761,7 @@
         "pts": "21.1",
         "reb": "6.3",
         "ast": "3.1",
-        "net_rating": "13.06"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Harvey Grant",
@@ -1770,7 +1770,7 @@
         "pts": "4.1",
         "reb": "3.3",
         "ast": "0.9",
-        "net_rating": "3.22"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Glen Rice",
@@ -1779,7 +1779,7 @@
         "pts": "26.8",
         "reb": "4.0",
         "ast": "2.0",
-        "net_rating": "15.00"
+        "net_rating": "N/A"
     },
     {
         "player_name": "George Zidek",
@@ -1788,7 +1788,7 @@
         "pts": "2.8",
         "reb": "1.7",
         "ast": "0.3",
-        "net_rating": "1.97"
+        "net_rating": "N/A"
     },
     {
         "player_name": "George McCloud",
@@ -1797,7 +1797,7 @@
         "pts": "10.2",
         "reb": "2.8",
         "ast": "1.7",
-        "net_rating": "6.28"
+        "net_rating": "N/A"
     },
     {
         "player_name": "George Lynch",
@@ -1806,7 +1806,7 @@
         "pts": "8.3",
         "reb": "6.4",
         "ast": "1.9",
-        "net_rating": "6.45"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Gary Trent",
@@ -1815,7 +1815,7 @@
         "pts": "10.8",
         "reb": "5.2",
         "ast": "1.1",
-        "net_rating": "7.18"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Gary Payton",
@@ -1824,7 +1824,7 @@
         "pts": "21.8",
         "reb": "4.6",
         "ast": "7.1",
-        "net_rating": "13.70"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Gary Grant",
@@ -1833,7 +1833,7 @@
         "pts": "3.9",
         "reb": "1.4",
         "ast": "1.6",
-        "net_rating": "2.69"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Herb Williams",
@@ -1842,7 +1842,7 @@
         "pts": "1.9",
         "reb": "1.5",
         "ast": "0.2",
-        "net_rating": "1.44"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dee Brown",
@@ -1851,7 +1851,7 @@
         "pts": "7.6",
         "reb": "2.3",
         "ast": "3.2",
-        "net_rating": "5.13"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jeff Grayer",
@@ -1860,7 +1860,7 @@
         "pts": "3.6",
         "reb": "1.5",
         "ast": "1.0",
-        "net_rating": "2.45"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jayson Williams",
@@ -1869,7 +1869,7 @@
         "pts": "13.4",
         "reb": "13.5",
         "ast": "1.2",
-        "net_rating": "10.99"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jason Kidd",
@@ -1878,7 +1878,7 @@
         "pts": "10.9",
         "reb": "4.5",
         "ast": "9.0",
-        "net_rating": "8.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jason Caffey",
@@ -1887,7 +1887,7 @@
         "pts": "7.3",
         "reb": "4.0",
         "ast": "1.2",
-        "net_rating": "5.09"
+        "net_rating": "N/A"
     },
     {
         "player_name": "James Robinson",
@@ -1896,7 +1896,7 @@
         "pts": "8.3",
         "reb": "1.6",
         "ast": "1.8",
-        "net_rating": "4.99"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jalen Rose",
@@ -1905,7 +1905,7 @@
         "pts": "7.3",
         "reb": "1.8",
         "ast": "2.3",
-        "net_rating": "4.65"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Isaiah Rider",
@@ -1914,7 +1914,7 @@
         "pts": "16.1",
         "reb": "4.0",
         "ast": "2.6",
-        "net_rating": "9.77"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Hubert Davis",
@@ -1923,7 +1923,7 @@
         "pts": "5.0",
         "reb": "1.1",
         "ast": "0.9",
-        "net_rating": "3.01"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Horace Grant",
@@ -1932,7 +1932,7 @@
         "pts": "12.6",
         "reb": "9.0",
         "ast": "2.4",
-        "net_rating": "9.48"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Hersey Hawkins",
@@ -1941,7 +1941,7 @@
         "pts": "13.9",
         "reb": "3.9",
         "ast": "3.0",
-        "net_rating": "8.72"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Jamal Mashburn",
@@ -1950,7 +1950,7 @@
         "pts": "11.9",
         "reb": "4.3",
         "ast": "2.9",
-        "net_rating": "7.82"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Felton Spencer",
@@ -1959,7 +1959,7 @@
         "pts": "5.1",
         "reb": "5.7",
         "ast": "0.3",
-        "net_rating": "4.32"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ervin Johnson",
@@ -1968,7 +1968,7 @@
         "pts": "7.1",
         "reb": "11.1",
         "ast": "0.9",
-        "net_rating": "7.06"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Donyell Marshall",
@@ -1977,7 +1977,7 @@
         "pts": "7.3",
         "reb": "4.5",
         "ast": "0.9",
-        "net_rating": "5.18"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Don MacLean",
@@ -1986,7 +1986,7 @@
         "pts": "10.9",
         "reb": "3.8",
         "ast": "1.0",
-        "net_rating": "6.79"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dominique Wilkins",
@@ -1995,7 +1995,7 @@
         "pts": "18.2",
         "reb": "6.4",
         "ast": "1.9",
-        "net_rating": "11.40"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dikembe Mutombo",
@@ -2004,7 +2004,7 @@
         "pts": "13.3",
         "reb": "11.6",
         "ast": "1.4",
-        "net_rating": "10.41"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Doug Christie",
@@ -2013,7 +2013,7 @@
         "pts": "14.5",
         "reb": "5.3",
         "ast": "3.9",
-        "net_rating": "9.62"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dickey Simpkins",
@@ -2022,7 +2022,7 @@
         "pts": "1.9",
         "reb": "1.9",
         "ast": "0.6",
-        "net_rating": "1.64"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Detlef Schrempf",
@@ -2031,7 +2031,7 @@
         "pts": "16.8",
         "reb": "6.5",
         "ast": "4.4",
-        "net_rating": "11.23"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Derrick McKey",
@@ -2040,7 +2040,7 @@
         "pts": "8.0",
         "reb": "4.8",
         "ast": "2.7",
-        "net_rating": "5.98"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Derrick Coleman",
@@ -2049,7 +2049,7 @@
         "pts": "18.1",
         "reb": "10.1",
         "ast": "3.4",
-        "net_rating": "12.76"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Derek Harper",
@@ -2058,7 +2058,7 @@
         "pts": "10.0",
         "reb": "1.8",
         "ast": "4.3",
-        "net_rating": "6.40"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Derek Fisher",
@@ -2067,7 +2067,7 @@
         "pts": "3.9",
         "reb": "1.2",
         "ast": "1.5",
-        "net_rating": "2.61"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dennis Scott",
@@ -2076,7 +2076,7 @@
         "pts": "12.5",
         "reb": "3.1",
         "ast": "2.1",
-        "net_rating": "7.60"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Duane Causwell",
@@ -2085,7 +2085,7 @@
         "pts": "2.6",
         "reb": "2.8",
         "ast": "0.4",
-        "net_rating": "2.22"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Erick Dampier",
@@ -2094,7 +2094,7 @@
         "pts": "5.1",
         "reb": "4.1",
         "ast": "0.6",
-        "net_rating": "3.90"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Williams",
@@ -2103,7 +2103,7 @@
         "pts": "15.0",
         "reb": "4.6",
         "ast": "1.8",
-        "net_rating": "9.24"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Piatkowski",
@@ -2112,7 +2112,7 @@
         "pts": "6.0",
         "reb": "1.6",
         "ast": "0.8",
-        "net_rating": "3.64"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Murdock",
@@ -2121,7 +2121,7 @@
         "pts": "3.8",
         "reb": "0.9",
         "ast": "2.0",
-        "net_rating": "2.57"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Mobley",
@@ -2130,7 +2130,7 @@
         "pts": "2.6",
         "reb": "2.1",
         "ast": "0.5",
-        "net_rating": "2.03"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Leckner",
@@ -2139,7 +2139,7 @@
         "pts": "1.7",
         "reb": "1.8",
         "ast": "0.3",
-        "net_rating": "1.45"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ennis Whatley",
@@ -2148,7 +2148,7 @@
         "pts": "1.3",
         "reb": "1.0",
         "ast": "1.0",
-        "net_rating": "1.15"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eric Montross",
@@ -2157,7 +2157,7 @@
         "pts": "4.4",
         "reb": "6.6",
         "ast": "0.8",
-        "net_rating": "4.34"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Elmore Spencer",
@@ -2166,7 +2166,7 @@
         "pts": "0.0",
         "reb": "0.0",
         "ast": "0.0",
-        "net_rating": "0.00"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ed O'Bannon",
@@ -2175,7 +2175,7 @@
         "pts": "3.7",
         "reb": "2.3",
         "ast": "0.6",
-        "net_rating": "2.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Ed Pinckney",
@@ -2184,7 +2184,7 @@
         "pts": "2.4",
         "reb": "2.4",
         "ast": "0.2",
-        "net_rating": "1.96"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Dwayne Schintzius",
@@ -2193,7 +2193,7 @@
         "pts": "2.3",
         "reb": "1.5",
         "ast": "0.3",
-        "net_rating": "1.66"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Eddie Jones",
@@ -2202,7 +2202,7 @@
         "pts": "17.2",
         "reb": "4.1",
         "ast": "3.4",
-        "net_rating": "10.51"
+        "net_rating": "N/A"
     },
     {
         "player_name": "Elden Campbell",
@@ -2211,6 +2211,6 @@
         "pts": "14.9",
         "reb": "8.0",
         "ast": "1.6",
-        "net_rating": "10.17"
+        "net_rating": "N/A"
     }
 ]
