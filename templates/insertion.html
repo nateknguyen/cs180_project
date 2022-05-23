@@ -37,52 +37,23 @@
     <table class="table table-hover table-bordered table-responsive">
         <tr style="text-align: left; font-weight: bold;" class="table-dark">
               <td>Player Name</td>
-              <td>Team Abbreviation</td>
               <td>Age</td>
-              <td>Player Height in cm</td>
-              <td>Player Weight in kg</td>
-              <td>College</td>
-              <td>Country</td>
-              <td>Draft year</td>
               <td>Draft Round</td>
-              <td>Draft Number</td>
-              <td>Games Played</td>
               <td>Points</td>
               <td>Rebounds</td>
               <td>Assists</td>
-              <td>Net Rating</td>
-              <td>Offensive Rebound Percentage</td>
-              <td>Defensive Rebound Percentage</td>
-              <td>Usage Percentage</td>
-              <td>True Shooting Percentage</td>
-              <td>Assist Percentage</td>
               <td>Season</td>
   
           </tr>
           {% for value in playerData %}
           <tr>
               <td>{{value['player_name']}}</td>
-              <td>{{value['team_abbreviation']}}</td>
               <td>{{value['age']}}</td>
-              <td>{{value['player_height']}}</td>
-              <td>{{value['player_weight']}}</td>
-              <td>{{value['college']}}</td>
-              <td>{{value['country']}}</td>
-              <td>{{value['draft_year']}}</td>
               <td>{{value['draft_round']}}</td>
-              <td>{{value['draft_number']}}</td>
-              <td>{{value['gp']}}</td>
               <td>{{value['pts']}}</td>
               <td>{{value['reb']}}</td>
               <td>{{value['ast']}}</td>
-              <td>{{value['net_rating']}}</td>
-              <td>{{value['oreb_pct']}}</td>
-              <td>{{value['dreb_pct']}}</td>
-              <td>{{value['usg_pct']}}</td>
-              <td>{{value['ts_pct']}}</td>
-              <td>{{value['ast_pct']}}</td>
               <td>{{value['season']}}</td>
-              
           </tr>
           {% endfor %}
       </table>

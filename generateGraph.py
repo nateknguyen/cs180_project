@@ -1,7 +1,6 @@
 import mpld3
 import matplotlib.pyplot as plt
 from decimal import Decimal
-import json
 
 def generateGraph(players):
     x = list()

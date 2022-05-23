@@ -1,6 +1,5 @@
-import csv
 import json
-import playerName
+import playerDataStore
 
 
 FILE_NAME = "all_seasonsTest.csv"
@@ -9,10 +8,15 @@ columns = ['', 'player_name', 'team_abbreviation', 'age', 'player_height', 'play
 obj = json.load(open(PLAYERS_JSON_DATA))
 
 
-def deletePlayer(playerSeason, name, index):
-    playerList = playerName.getPlayerListFromJSON()
+def deletePlayer(name, season):
+    playerList = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
     
-    playerList.pop(int(index))
-    
+    for index in range(len(playerList)):
+        if playerList[index]['player_name'] == name and playerList[index]['season'] == season:
+            playerList.pop(index)
+            break
+
+    playerDataStore.writeDataToJSON(playerDataStore.PLAYERS_JSON_DATA, playerList)
+
     return playerList
 

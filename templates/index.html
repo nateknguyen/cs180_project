@@ -18,7 +18,7 @@
       display: none;
     }
 
-    #searchDraftYear {
+    #searchDraftRound {
       width: 20%;
       padding: 5px 0;
       text-align: center;
@@ -135,12 +135,12 @@
         </div>
     </form>
     <br>
-    <!--Button for Search Draft Year-->
-    <button type="button" class="btn btn-primary" onclick="showSearchDraftYear()">Search By Draft Year</button>
-    <form action='/searchByDraftYear/' method="get">
-        <div id="searchDraftYear">
+    <!--Button for Search Draft Round-->
+    <button type="button" class="btn btn-primary" onclick="showSearchDraftRound()">Search By Draft Round</button>
+    <form action='/searchByDraftRound/' method="get">
+        <div id="searchDraftRound">
               <label for="exampleFormControlInput1" class="form-label">Type Draft Year</label>
-              <input type="text" class="form-control" name="draftYear"  placeholder="ex: 1996">
+              <input type="text" class="form-control" name="draftRound"  placeholder="ex: 1">
               <button type="submit" class="btn btn-primary">search</button>
             </div>
     </form>
@@ -175,35 +175,11 @@
             <label for="exampleFormControlInput1" class="form-label">Type Season</label>
             <input type="text" class="form-control" name="season"  placeholder="ex: 1996-97">
 
-            <label for="exampleFormControlInput1">Team Abbreviation:</label><br>
-            <input type="text" id="tainput" name="tainput" placeholder="ex: LAL" ><br><br>
-
             <label for="exampleFormControlInput1">Age:</label><br>
             <input type="text" id="ageinput" name="ageinput" placeholder="ex: 21"><br>
 
-            <label for="exampleFormControlInput1">Player Height(cm):</label><br>
-            <input type="text" id="heightinput" name="heightinput" placeholder="ex: 183"><br><br>
-            
-            <label for="exampleFormControlInput1">Player Weight(kg):</label><br>
-            <input type="text" id="weightinput" name="weightinput" placeholder="ex: 70"><br>
-
-            <label for="exampleFormControlInput1">College:</label><br>
-            <input type="text" id="collegeinput" name="collegeinput" placeholder="ex: UCR"><br><br>
-
-            <label for="exampleFormControlInput1">Country:</label><br>
-            <input type="text" id="countryinput" name="countryinput" placeholder="ex: USA"><br>
-
-            <label for="exampleFormControlInput1">Draft Year:</label><br>
-            <input type="text" id="dyearinput" name="dyearinput" placeholder="ex: 1996-97"><br><br>
-
             <label for="exampleFormControlInput1">Draft Round:</label><br>
             <input type="text" id="droundinput" name="droundinput" placeholder="ex: 1"><br>
-
-            <label for="exampleFormControlInput1">Draft Number:</label><br>
-            <input type="text" id="dnuminput" name="dnuminput" placeholder="ex: 25"><br><br>
-
-            <label for="exampleFormControlInput1">Games Played:</label><br>
-            <input type="text" id="GPinput" name="GPinput" placeholder="ex: 48"><br>
 
             <label for="exampleFormControlInput1">Points:</label><br>
             <input type="text" id="ptsinput" name="ptsinput" placeholder="ex: 2.5"><br><br>
@@ -213,22 +189,6 @@
 
             <label for="exampleFormControlInput1">Assists:</label><br>
             <input type="text" id="astinput" name="astinput" placeholder="ex: 2.5"><br><br>
-
-            <label for="exampleFormControlInput1">Offensive Rebound Percentage:</label><br>
-            <input type="text" id="ORPinput" name="ORPinput" placeholder="ex: 0.12"><br>
-
-            <label for="exampleFormControlInput1">Defensive Rebound Percentage:</label><br>
-            <input type="text" id="DRPinput" name="DRPinput" placeholder="ex: 0.12"><br><br>
-
-            <label for="exampleFormControlInput1">Usage Percentage:</label><br>
-            <input type="text" id="UPinput" name="UPinput" placeholder="ex: 0.12"><br>
-
-            <label for="exampleFormControlInput1">True Shooting Percentage:</label><br>
-            <input type="text" id="TSPinput" name="TSPinput" placeholder="ex: 0.12"><br><br>
-
-            <label for="exampleFormControlInput1">Assist Percentage:</label><br>
-            <input type="text" id="APinput" name="APinput" placeholder="ex: 0.12"><br><br>
-
 
             <button type="submit" class="btn btn-primary">Search</button>
         </div>
@@ -273,14 +233,14 @@
     <table class="table table-hover table-bordered table-responsive">
       <tr style="text-align: left; font-weight: bold;" class="table-dark">
             <td>Player Names</td>
-            <td>Team Abbreviation</td>
             <td>Player Age</td>
+            <td>Season</td>
         </tr>
         {% for value in playerList %}
         <tr>
             <td>{{value['player_name']}}</td>
-            <td>{{value['team_abbreviation']}}</td>
             <td>{{value['age']}}</td>
+            <td>{{value['season']}}</td>
         </tr>
         {% endfor %}
     </table> 
@@ -294,8 +254,8 @@
           }
         }
 
-        function showSearchDraftYear() {
-          var x = document.getElementById("searchDraftYear");
+        function showSearchDraftRound() {
+          var x = document.getElementById("searchDraftRound");
           if (x.style.display === "none") {
             x.style.display = "block";
           } else {
