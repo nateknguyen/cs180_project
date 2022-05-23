@@ -1,18 +1,16 @@
 from flask import redirect, Flask, request, render_template
 from matplotlib.pyplot import scatter
-import playerName
+import playerDataStore
+import playerSearch
 import playerInsertion
-import calculateNetRating
-import playerUpdate
 import playerDelete
-import json
+import playerUpdate
+import calculateNetRating
 import calculateDraftRound
 import generateGraph
 
-playerName.convertPlayerTableToJSON()
-
-players = playerName.getPlayerListFromJSON()
-playerToSearch = list()
+playerDataStore.initializePlayerTableToJSON()
+players = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
 
 app = Flask(__name__)
 
@@ -23,27 +21,27 @@ def index():
 
 @app.route('/searchByName/')
 def searchByName():
-    global playerToSearch
+    players = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
     name = request.args.get("name")
-    playerToSearch = playerName.searchPlayerByName(players, name)
-    searchType = 'Search by Name: '+name
+    playerToSearch = playerSearch.searchPlayerByName(players, name)
+    searchType = 'Search by Name: '+ name
 
     return render_template('search.html', playerList=playerToSearch, playerName=searchType)
 
-@app.route('/searchByDraftYear/')
+@app.route('/searchByDraftRound/')
 def searchByDraftYear():
-    global playerToSearch
-    draftYear = request.args.get("draftYear")
-    playerToSearch = playerName.searchPlayerByDraftYear(players, draftYear)
-    searchType = 'Search by Draft Year: '+draftYear
+    players = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
+    draftRound = request.args.get("draftRound")
+    playerToSearch = playerSearch.searchPlayerByDraftRound(players, draftRound)
+    searchType = 'Search by Draft Round: '+draftRound
 
     return render_template('search.html', playerList=playerToSearch, playerName=searchType)
 
 @app.route('/searchBySeason/')
 def searchBySeason():
-    global playerToSearch
+    players = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
     season = request.args.get("season")
-    playerToSearch = playerName.searchPlayerBySeason(players, season)
+    playerToSearch = playerSearch.searchPlayerBySeason(players, season)
     searchType = 'Search by Season: '+season
 
     return render_template('search.html', playerList=playerToSearch, playerName=searchType)
@@ -51,7 +49,7 @@ def searchBySeason():
 #app route for add player
 @app.route('/addPlayer/')
 def addPlayer():
-    playerData = dict.fromkeys(['', 'player_name', 'team_abbreviation', 'age', 'player_height', 'player_weight', 'college', 'country', 'draft_year', 'draft_round', 'draft_number', 'gp', 'pts', 'reb', 'ast', 'net_rating', 'oreb_pct', 'dreb_pct', 'usg_pct', 'ts_pct', 'ast_pct', 'season'])
+    playerData = dict.fromkeys(['', 'player_name', 'age', 'draft_round', 'pts', 'reb', 'ast', 'season'])
     name = request.args.get("name")
     playerData['player_name'] = name
     playerInsertion.insertPlayer(playerData)
@@ -61,8 +59,10 @@ def addPlayer():
 #app route for calculate net rating
 @app.route('/netRating/')
 def netRating():
+    global players
     name = request.args.get("name")
-    playersCalculatedNetRating = calculateNetRating.calculateNetRating(name)
+    playerSearch.searchPlayerByName(players, name)
+    playersCalculatedNetRating = calculateNetRating.calculateNetRating('searchedPlayer.json')
     netRatingHeader = 'Net rating of ' + name
 
     return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating)
@@ -71,119 +71,53 @@ def netRating():
 #app route for updating player
 @app.route('/updatePlayer/')
 def updatePlayer():
-    global playerToSearch
-
-
+    global players
 
     #Search for Player by name+season
     pname = request.args.get("name")
     pseason = request.args.get("season")
-    playerToSearch = playerName.searchPlayerByName(players, pname)
-    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
+    ageInput = request.args.get("ageinput")
+    droundinput = request.args.get("droundinput")
+    ptsinput = request.args.get("ptsinput")
+    rebinput = request.args.get("rebinput")
+    astinput = request.args.get("astinput")
 
-
-    #if person exists within list, get rest of inputs and write new ones
-    if (len(playerToSearch) != 0):
-        obj = json.load(open("players.json"))
-
-        tainput = request.args.get("tainput")
-        ageinput = request.args.get("ageinput")
-        heightinput = request.args.get("heightinput")
-        weightinput = request.args.get("weightinput")
-        collegeinput = request.args.get("collegeinput")
-        countryinput = request.args.get("countryinput")
-        dyearinput = request.args.get("dyearinput")
-        droundinput = request.args.get("droundinput")
-        dnuminput = request.args.get("dnuminput")
-        GPinput = request.args.get("GPinput")
-        ptsinput = request.args.get("ptsinput")
-        rebinput = request.args.get("rebinput")
-        astinput = request.args.get("astinput")
-        ORPinput = request.args.get("ORPinput")
-        UPinput = request.args.get("UPinput")
-        TSPinput = request.args.get("TSPinput")
-        APinput = request.args.get("APinput")
-        DRPinput = request.args.get("DRPinput")
-        
-
-        #rewriting
-        for i in range(len(obj)):
-            if obj[i]["player_name"] == pname and obj[i]["season"] == pseason:
-                obj[i]["age"] = ageinput
-                obj[i]["ast"] = astinput
-                obj[i]["ast_pct"] = APinput
-                obj[i]["college"] = collegeinput
-                obj[i]["country"] = countryinput
-                obj[i]["draft_number"] = dnuminput
-                obj[i]["draft_round"] = droundinput
-                obj[i]["draft_year"] = dyearinput
-                obj[i]["dreb_pct"] = DRPinput
-                obj[i]["gp"] = GPinput
-                obj[i]["oreb_pct"] = ORPinput
-                obj[i]["player_height"] = heightinput
-                obj[i]["player_weight"] = weightinput
-                obj[i]["pts"] = ptsinput
-                obj[i]["reb"] = rebinput
-                obj[i]["team_abbreviation"] = tainput
-                obj[i]["ts_pct"] = TSPinput
-                obj[i]["usg_pct"] = UPinput
-                obj[i]["oreb_pct"] = ORPinput
-
-                open("players.json", "w").write(
-            json.dumps(obj, sort_keys=True, indent = 4, separators=(',',': '))
-        )
-
-
-    playerToSearch = playerName.searchPlayerByName(players, pname)
-    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
+    players = playerUpdate.updatePlayer(pname, pseason, droundinput, ageInput, ptsinput, rebinput, astinput)
+    result = playerSearch.searchPlayerByName(players, pname)
 
     searchType = "Update by Name: " +pname
 
-    return render_template('update.html', playerList=playerToSearch, playerName=searchType)
+    return render_template('update.html', playerList=result, playerName=searchType)
 
 #app route for delete player
 @app.route('/deletePlayer/')
 def deletePlayer():
-    global playerToSearch
+    global players
 
     pname = request.args.get("name")
     pseason = request.args.get("season")
-    
 
-    playerToSearch = playerName.searchPlayerByName(players, pname)
-    playerToSearch = playerName.searchPlayerBySeason(playerToSearch, pseason)
+    players = playerDelete.deletePlayer(pname, pseason)
+    result = playerSearch.searchPlayerByName(players, pname)
 
-
-    if (len(playerToSearch) != 0):
-        obj = json.load(open("players.json"))
-        
-        for i in range(len(obj)):
-            if obj[i]["player_name"] == pname and obj[i]["season"] == pseason:
-                obj.pop(i)
-                break
-
-        open("players.json", "w").write(
-            json.dumps(obj, sort_keys=True, indent = 4, separators=(',',': '))
-        )
-
-    return render_template('delete.html')
+    return render_template('delete.html', playerList=result, name=pname)
 
 @app.route('/draftRating/')
 def draftRating():
+    global players
     season = request.args.get("season")
     round = request.args.get("round")
-    draftRoundRating = calculateDraftRound.calculateDraftRoundRating(season,round)
-    average = calculateDraftRound.calculateAverageNetRating(draftRoundRating)
+   
+    playersToCalculate = calculateDraftRound.readPlayersDraftRoundRating(season, round)
+
+    average = calculateNetRating.calculateAverageNetRating(playersToCalculate)
     draftRatingHeader = 'Season ' + season + ' Draft Round: ' + round 
 
-    return render_template('draftRating.html', playerName=draftRatingHeader,playerList=draftRoundRating,averageNetRating=average)
+    return render_template('draftRating.html', playerName=draftRatingHeader,playerList=playersToCalculate,averageNetRating=average)
 
 @app.route('/playerGraph/')
 def playerGraph():
-    with open('netRatingOfPlayer.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    dataList = list(data)
+    dataList = playerDataStore.readDataFromJSON('searchedPlayer.json')
 
     graph = generateGraph.generateGraph(dataList)
     max = calculateNetRating.getMaxNetRating(dataList)
@@ -195,16 +129,13 @@ def playerGraph():
 
 @app.route('/draftGraph/')
 def draftGraph():
-    with open('draftRoundRating.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    dataList = list(data)
+    dataList = playerDataStore.readDataFromJSON('draftRoundRating.json')
 
     graph = generateGraph.generateScatter(dataList)
     max = calculateNetRating.getMaxNetRating(dataList)
     min = calculateNetRating.getMinNetRating(dataList)
 
-    title = 'Graph of ' + dataList[0]['season'] + ' season and draft round ' + dataList[0]['draft_round']
+    title = 'Graph of the Player Table' 
     return render_template('graphForDraft.html', title=title, scatter=graph, maxNetRating=max, minNetRating=min)
 
 if __name__ == "__main__":

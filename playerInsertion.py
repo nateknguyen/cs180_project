@@ -1,30 +1,15 @@
-import csv
-import playerName
-import json
-
+import playerDataStore
 
 #inserts player data to csv
 def insertPlayer(newPlayerData):
-    playerData = playerName.getPlayerListFromJSON()
+    playerData = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
     playerData.append(newPlayerData)
 
-    with open(playerName.FILE_NAME, 'w', newline='') as file:
-        csvWriter = csv.DictWriter(file, fieldnames=playerName.columns)
-        csvWriter.writeheader()
-        for elem in playerData:
-            csvWriter.writerow(elem)
+    playerDataStore.writeDataToJSON(playerDataStore.PLAYERS_JSON_DATA, playerData)
 
-    with open(playerName.PLAYERS_JSON_DATA, 'w') as jsonf:
-        jsonString = json.dumps(playerData, indent=4)
-        jsonf.write(jsonString)
-
-
-    
-
-    
 #gets last entry in the csv
 def getNewestPlayer():
-    playerData = playerName.getPlayerListFromJSON()
+    playerData = playerDataStore.readDataFromJSON(playerDataStore.PLAYERS_JSON_DATA)
     return playerData[-1]    
 
 
