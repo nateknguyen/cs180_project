@@ -961,12 +961,12 @@
     },
     {
         "player_name": "Kobe Bryant",
-        "age": "18.0",
+        "age": "1",
         "draft_round": "1",
         "draft_number": "13",
-        "pts": "7.6",
-        "reb": "1.9",
-        "ast": "1.3",
+        "pts": "1",
+        "reb": "1",
+        "ast": "1",
         "season": "1996-97"
     },
     {
