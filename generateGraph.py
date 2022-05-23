@@ -1,6 +1,8 @@
 import mpld3
 import matplotlib.pyplot as plt
 from decimal import Decimal
+import matplotlib
+matplotlib.use("agg")
 
 def generateGraph(players):
     x = list()

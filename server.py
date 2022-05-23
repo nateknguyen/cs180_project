@@ -49,9 +49,11 @@ def searchBySeason():
 #app route for add player
 @app.route('/addPlayer/')
 def addPlayer():
-    playerData = dict.fromkeys(['', 'player_name', 'age', 'draft_round', 'pts', 'reb', 'ast', 'season'])
+    playerData = dict.fromkeys(['', 'player_name', 'age', 'draft_round', 'draft_number', 'pts', 'reb', 'ast', 'season'])
     name = request.args.get("name")
+    season = request.args.get("season")
     playerData['player_name'] = name
+    playerData['season'] = season
     playerInsertion.insertPlayer(playerData)
     newEntry = [playerInsertion.getNewestPlayer()]
     return render_template('insertion.html', name = name, playerData = newEntry)
@@ -62,10 +64,11 @@ def netRating():
     global players
     name = request.args.get("name")
     playerSearch.searchPlayerByName(players, name)
-    playersCalculatedNetRating = calculateNetRating.calculateNetRating('searchedPlayer.json')
+    playersCalculatedNetRating = calculateNetRating.calculateNetRatingOnePlayer('searchedPlayer.json')
+    averageOfPlayer = calculateNetRating.calculateAverageNetRating()
     netRatingHeader = 'Net rating of ' + name
 
-    return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating)
+    return render_template('netRating.html', playerName=netRatingHeader,playerList=playersCalculatedNetRating, average=averageOfPlayer)
 
 
 #app route for updating player
@@ -78,11 +81,12 @@ def updatePlayer():
     pseason = request.args.get("season")
     ageInput = request.args.get("ageinput")
     droundinput = request.args.get("droundinput")
+    dnumberInput = request.args.get("dnumberInput")
     ptsinput = request.args.get("ptsinput")
     rebinput = request.args.get("rebinput")
     astinput = request.args.get("astinput")
 
-    players = playerUpdate.updatePlayer(pname, pseason, droundinput, ageInput, ptsinput, rebinput, astinput)
+    players = playerUpdate.updatePlayer(pname, pseason, droundinput, dnumberInput, ageInput, ptsinput, rebinput, astinput)
     result = playerSearch.searchPlayerByName(players, pname)
 
     searchType = "Update by Name: " +pname
