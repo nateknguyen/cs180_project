@@ -42,8 +42,8 @@ def calculateNetRatingDraftRound(jsonFileToRead):
         resultList.append(player)
 
     sumData = {'draft_round':players[0]['draft_round'], 'sum':str(sum), 'tot':str(len(players))}
-
     
+    playerDataStore.writeDataToJSON('sumData.json', sumData)
 
     playerDataStore.writeDataToJSON(jsonFileToRead, resultList)
 

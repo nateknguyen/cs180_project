@@ -3,2214 +3,2460 @@
         "player_name": "Travis Knight",
         "age": "22.0",
         "draft_number": "29",
+        "draft_round": "1",
         "pts": "4.8",
         "reb": "4.5",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "3.85"
     },
     {
         "player_name": "Martin Muursepp",
         "age": "22.0",
         "draft_number": "25",
+        "draft_round": "1",
         "pts": "3.7",
         "reb": "1.6",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "2.43"
     },
     {
         "player_name": "Mark Jackson",
         "age": "32.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "9.9",
         "reb": "4.8",
         "ast": "11.4",
-        "net_rating": "N/A"
+        "net_rating": "8.67"
     },
     {
         "player_name": "Mark Bryant",
         "age": "32.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "9.3",
         "reb": "5.2",
         "ast": "1.1",
-        "net_rating": "N/A"
+        "net_rating": "6.43"
     },
     {
         "player_name": "Marcus Camby",
         "age": "23.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "14.8",
         "reb": "6.3",
         "ast": "1.5",
-        "net_rating": "N/A"
+        "net_rating": "9.59"
     },
     {
         "player_name": "Malik Sealy",
         "age": "27.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "13.5",
         "reb": "3.0",
         "ast": "2.1",
-        "net_rating": "N/A"
+        "net_rating": "8.07"
     },
     {
         "player_name": "Mahmoud Abdul-Rauf",
         "age": "28.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "13.7",
         "reb": "1.6",
         "ast": "2.5",
-        "net_rating": "N/A"
+        "net_rating": "7.83"
     },
     {
         "player_name": "Luc Longley",
         "age": "28.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "9.1",
         "reb": "5.6",
         "ast": "2.4",
-        "net_rating": "N/A"
+        "net_rating": "6.71"
     },
     {
         "player_name": "Loy Vaught",
         "age": "29.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "14.9",
         "reb": "10.0",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "10.71"
     },
     {
         "player_name": "Pervis Ellison",
         "age": "30.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "2.5",
         "reb": "4.3",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "2.68"
     },
     {
         "player_name": "Patrick Ewing",
         "age": "34.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "22.4",
         "reb": "10.7",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "14.81"
     },
     {
         "player_name": "Otis Thorpe",
         "age": "34.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "13.1",
         "reb": "7.9",
         "ast": "1.7",
-        "net_rating": "N/A"
+        "net_rating": "9.26"
     },
     {
         "player_name": "Oliver Miller",
         "age": "27.0",
         "draft_number": "22",
+        "draft_round": "1",
         "pts": "4.8",
         "reb": "5.0",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "4.18"
     },
     {
         "player_name": "Olden Polynice",
         "age": "32.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "12.5",
         "reb": "9.4",
         "ast": "2.2",
-        "net_rating": "N/A"
+        "net_rating": "9.51"
     },
     {
         "player_name": "Nick Anderson",
         "age": "29.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "12.0",
         "reb": "4.8",
         "ast": "2.9",
-        "net_rating": "N/A"
+        "net_rating": "8.02"
     },
     {
         "player_name": "Muggsy Bogues",
         "age": "32.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "8.0",
         "reb": "2.2",
         "ast": "7.2",
-        "net_rating": "N/A"
+        "net_rating": "6.10"
     },
     {
         "player_name": "Monty Williams",
         "age": "25.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "9.0",
         "reb": "3.2",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "5.74"
     },
     {
         "player_name": "Mitch Richmond",
         "age": "32.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "25.9",
         "reb": "3.9",
         "ast": "4.2",
-        "net_rating": "N/A"
+        "net_rating": "14.96"
     },
     {
         "player_name": "Michael Jordan",
         "age": "34.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "29.6",
         "reb": "5.9",
         "ast": "4.3",
-        "net_rating": "N/A"
+        "net_rating": "17.43"
     },
     {
         "player_name": "Michael Finley",
         "age": "24.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "15.0",
         "reb": "4.5",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "9.39"
     },
     {
         "player_name": "Michael Cage",
         "age": "35.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "1.8",
         "reb": "3.9",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "2.17"
     },
     {
         "player_name": "Mookie Blaylock",
         "age": "30.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "17.4",
         "reb": "5.3",
         "ast": "5.9",
-        "net_rating": "N/A"
+        "net_rating": "11.47"
     },
     {
         "player_name": "Pooh Richardson",
         "age": "31.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "5.6",
         "reb": "1.7",
         "ast": "2.9",
-        "net_rating": "N/A"
+        "net_rating": "3.89"
     },
     {
         "player_name": "Lorenzen Wright",
         "age": "21.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "7.3",
         "reb": "6.1",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "5.60"
     },
     {
         "player_name": "Karl Malone",
         "age": "33.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "27.4",
         "reb": "9.9",
         "ast": "4.5",
-        "net_rating": "N/A"
+        "net_rating": "17.57"
     },
     {
         "player_name": "Juwan Howard",
         "age": "24.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "19.1",
         "reb": "8.0",
         "ast": "3.8",
-        "net_rating": "N/A"
+        "net_rating": "12.71"
     },
     {
         "player_name": "Jon Barry",
         "age": "27.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "4.9",
         "reb": "1.7",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "3.36"
     },
     {
         "player_name": "John Wallace",
         "age": "23.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "4.8",
         "reb": "2.3",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "3.19"
     },
     {
         "player_name": "John Stockton",
         "age": "35.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "14.4",
         "reb": "2.8",
         "ast": "10.5",
-        "net_rating": "N/A"
+        "net_rating": "10.14"
     },
     {
         "player_name": "Joe Wolf",
         "age": "32.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "1.7",
         "reb": "2.0",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "1.53"
     },
     {
         "player_name": "Joe Smith",
         "age": "21.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "18.7",
         "reb": "8.5",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "12.22"
     },
     {
         "player_name": "Joe Kleine",
         "age": "35.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "2.8",
         "reb": "3.4",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "2.54"
     },
     {
         "player_name": "Joe Dumars",
         "age": "34.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "14.7",
         "reb": "2.4",
         "ast": "4.0",
-        "net_rating": "N/A"
+        "net_rating": "8.87"
     },
     {
         "player_name": "Jim Jackson",
         "age": "26.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "15.9",
         "reb": "5.3",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "10.36"
     },
     {
         "player_name": "Jerry Stackhouse",
         "age": "22.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "20.7",
         "reb": "4.2",
         "ast": "3.1",
-        "net_rating": "N/A"
+        "net_rating": "12.23"
     },
     {
         "player_name": "Ken Norman",
         "age": "32.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "3.8",
         "reb": "2.3",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "2.73"
     },
     {
         "player_name": "Kendall Gill",
         "age": "29.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "21.8",
         "reb": "6.1",
         "ast": "4.0",
-        "net_rating": "N/A"
+        "net_rating": "13.53"
     },
     {
         "player_name": "Kenny Anderson",
         "age": "26.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "17.5",
         "reb": "4.4",
         "ast": "7.1",
-        "net_rating": "N/A"
+        "net_rating": "11.49"
     },
     {
         "player_name": "Lionel Simmons",
         "age": "28.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "3.4",
         "reb": "2.5",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "2.73"
     },
     {
         "player_name": "Lindsey Hunter",
         "age": "26.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "14.2",
         "reb": "2.8",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "8.32"
     },
     {
         "player_name": "Lee Mayberry",
         "age": "27.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "5.1",
         "reb": "1.7",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "3.88"
     },
     {
         "player_name": "Latrell Sprewell",
         "age": "26.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "24.2",
         "reb": "4.6",
         "ast": "6.3",
-        "net_rating": "N/A"
+        "net_rating": "14.74"
     },
     {
         "player_name": "Larry Johnson",
         "age": "28.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "12.8",
         "reb": "5.2",
         "ast": "2.3",
-        "net_rating": "N/A"
+        "net_rating": "8.42"
     },
     {
         "player_name": "Lamond Murray",
         "age": "24.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "7.4",
         "reb": "3.1",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "4.79"
     },
     {
         "player_name": "LaSalle Thompson",
         "age": "36.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "0.4",
         "reb": "1.3",
         "ast": "0.1",
-        "net_rating": "N/A"
+        "net_rating": "0.61"
     },
     {
         "player_name": "Loren Meyer",
         "age": "24.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "4.9",
         "reb": "2.7",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "3.34"
     },
     {
         "player_name": "LaPhonso Ellis",
         "age": "27.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "21.9",
         "reb": "7.0",
         "ast": "2.4",
-        "net_rating": "N/A"
+        "net_rating": "13.53"
     },
     {
         "player_name": "Kobe Bryant",
         "age": "18.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "7.6",
         "reb": "1.9",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "4.63"
     },
     {
         "player_name": "Khalid Reeves",
         "age": "24.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "8.2",
         "reb": "1.9",
         "ast": "3.6",
-        "net_rating": "N/A"
+        "net_rating": "5.39"
     },
     {
         "player_name": "Kevin Willis",
         "age": "34.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "11.2",
         "reb": "7.5",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "8.03"
     },
     {
         "player_name": "Kevin Johnson",
         "age": "31.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "20.1",
         "reb": "3.6",
         "ast": "9.3",
-        "net_rating": "N/A"
+        "net_rating": "12.99"
     },
     {
         "player_name": "Kevin Garnett",
         "age": "21.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "17.0",
         "reb": "8.0",
         "ast": "3.1",
-        "net_rating": "N/A"
+        "net_rating": "11.52"
     },
     {
         "player_name": "Kevin Edwards",
         "age": "31.0",
         "draft_number": "20",
+        "draft_round": "1",
         "pts": "5.9",
         "reb": "1.3",
         "ast": "1.8",
-        "net_rating": "N/A"
+        "net_rating": "3.70"
     },
     {
         "player_name": "Kerry Kittles",
         "age": "23.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "16.4",
         "reb": "3.9",
         "ast": "3.0",
-        "net_rating": "N/A"
+        "net_rating": "9.97"
     },
     {
         "player_name": "Kenny Smith",
         "age": "32.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "6.3",
         "reb": "0.9",
         "ast": "2.4",
-        "net_rating": "N/A"
+        "net_rating": "3.90"
     },
     {
         "player_name": "Kurt Thomas",
         "age": "24.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "6.3",
         "reb": "5.9",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "5.02"
     },
     {
         "player_name": "Priest Lauderdale",
         "age": "23.0",
         "draft_number": "28",
+        "draft_round": "1",
         "pts": "3.2",
         "reb": "1.2",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "2.02"
     },
     {
         "player_name": "Wayman Tisdale",
         "age": "33.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "6.5",
         "reb": "2.3",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "4.02"
     },
     {
         "player_name": "Walter McCarty",
         "age": "23.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "1.8",
         "reb": "0.7",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "1.19"
     },
     {
         "player_name": "Walt Williams",
         "age": "27.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "16.4",
         "reb": "5.0",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "10.24"
     },
     {
         "player_name": "Vlade Divac",
         "age": "29.0",
         "draft_number": "26",
+        "draft_round": "1",
         "pts": "12.6",
         "reb": "9.0",
         "ast": "3.7",
-        "net_rating": "N/A"
+        "net_rating": "9.74"
     },
     {
         "player_name": "Vitaly Potapenko",
         "age": "22.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "5.8",
         "reb": "2.7",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "3.81"
     },
     {
         "player_name": "Vin Baker",
         "age": "25.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "21.0",
         "reb": "10.3",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "14.13"
     },
     {
         "player_name": "Tyrone Hill",
         "age": "29.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "12.9",
         "reb": "9.9",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "9.66"
     },
     {
         "player_name": "Terry Cummings",
         "age": "36.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "8.2",
         "reb": "4.1",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "5.51"
     },
     {
         "player_name": "Terrell Brandon",
         "age": "27.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "19.5",
         "reb": "3.9",
         "ast": "6.3",
-        "net_rating": "N/A"
+        "net_rating": "12.18"
     },
     {
         "player_name": "Steven Smith",
         "age": "28.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "20.1",
         "reb": "3.3",
         "ast": "4.2",
-        "net_rating": "N/A"
+        "net_rating": "11.88"
     },
     {
         "player_name": "Steve Nash",
         "age": "23.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "3.3",
         "reb": "1.0",
         "ast": "2.1",
-        "net_rating": "N/A"
+        "net_rating": "2.37"
     },
     {
         "player_name": "Stephon Marbury",
         "age": "20.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "15.8",
         "reb": "2.7",
         "ast": "7.8",
-        "net_rating": "N/A"
+        "net_rating": "10.27"
     },
     {
         "player_name": "Wesley Person",
         "age": "26.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "13.5",
         "reb": "3.7",
         "ast": "1.5",
-        "net_rating": "N/A"
+        "net_rating": "8.16"
     },
     {
         "player_name": "Will Perdue",
         "age": "31.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "8.7",
         "reb": "9.8",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "7.41"
     },
     {
         "player_name": "Willie Anderson",
         "age": "30.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "3.0",
         "reb": "1.5",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "2.19"
     },
     {
         "player_name": "Willie Burton",
         "age": "29.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "6.2",
         "reb": "1.7",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "3.71"
     },
     {
         "player_name": "Terry Dehere",
         "age": "25.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "6.4",
         "reb": "1.3",
         "ast": "2.2",
-        "net_rating": "N/A"
+        "net_rating": "4.03"
     },
     {
         "player_name": "Terry Mills",
         "age": "29.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "10.8",
         "reb": "4.8",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "7.10"
     },
     {
         "player_name": "Terry Porter",
         "age": "34.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "6.9",
         "reb": "2.1",
         "ast": "3.6",
-        "net_rating": "N/A"
+        "net_rating": "4.80"
     },
     {
         "player_name": "Theo Ratliff",
         "age": "24.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "5.8",
         "reb": "3.4",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "3.96"
     },
     {
         "player_name": "Tim Hardaway",
         "age": "30.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "20.3",
         "reb": "3.4",
         "ast": "8.6",
-        "net_rating": "N/A"
+        "net_rating": "12.89"
     },
     {
         "player_name": "Todd Day",
         "age": "27.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "14.5",
         "reb": "4.1",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "8.76"
     },
     {
         "player_name": "Todd Fuller",
         "age": "22.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "4.0",
         "reb": "3.3",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "3.05"
     },
     {
         "player_name": "Tom Chambers",
         "age": "38.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "1.6",
         "reb": "1.2",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "1.22"
     },
     {
         "player_name": "Stanley Roberts",
         "age": "27.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "9.5",
         "reb": "5.1",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "6.38"
     },
     {
         "player_name": "Tom Gugliotta",
         "age": "27.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "20.6",
         "reb": "8.7",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "13.73"
     },
     {
         "player_name": "Tony Delk",
         "age": "23.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "5.4",
         "reb": "1.6",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "3.50"
     },
     {
         "player_name": "Tony Dumas",
         "age": "24.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "3.6",
         "reb": "0.7",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "2.21"
     },
     {
         "player_name": "Tracy Murray",
         "age": "25.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "10.0",
         "reb": "3.1",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "6.13"
     },
     {
         "player_name": "Travis Best",
         "age": "24.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "9.9",
         "reb": "2.2",
         "ast": "4.2",
-        "net_rating": "N/A"
+        "net_rating": "6.45"
     },
     {
         "player_name": "Yinka Dare",
         "age": "24.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "1.4",
         "reb": "2.0",
         "ast": "0.1",
-        "net_rating": "N/A"
+        "net_rating": "1.32"
     },
     {
         "player_name": "Xavier McDaniel",
         "age": "34.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "5.6",
         "reb": "5.1",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "4.53"
     },
     {
         "player_name": "Tom Hammonds",
         "age": "30.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "6.2",
         "reb": "5.0",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "4.76"
     },
     {
         "player_name": "Stacey King",
         "age": "30.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "2.2",
         "reb": "2.5",
         "ast": "0.1",
-        "net_rating": "N/A"
+        "net_rating": "1.87"
     },
     {
         "player_name": "Stacey Augmon",
         "age": "28.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "4.7",
         "reb": "2.3",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "3.22"
     },
     {
         "player_name": "Rodney Rogers",
         "age": "26.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "13.2",
         "reb": "5.1",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "8.67"
     },
     {
         "player_name": "Rod Strickland",
         "age": "30.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "17.2",
         "reb": "4.1",
         "ast": "8.9",
-        "net_rating": "N/A"
+        "net_rating": "11.61"
     },
     {
         "player_name": "Robert Parish",
         "age": "43.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "3.7",
         "reb": "2.1",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "2.58"
     },
     {
         "player_name": "Robert Horry",
         "age": "26.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "7.8",
         "reb": "4.4",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "5.62"
     },
     {
         "player_name": "Rik Smits",
         "age": "30.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "17.1",
         "reb": "6.9",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "10.88"
     },
     {
         "player_name": "Ricky Pierce",
         "age": "37.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "11.0",
         "reb": "2.0",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "6.36"
     },
     {
         "player_name": "Rick Fox",
         "age": "27.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "15.4",
         "reb": "5.2",
         "ast": "3.8",
-        "net_rating": "N/A"
+        "net_rating": "10.02"
     },
     {
         "player_name": "Ron Harper",
         "age": "33.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "6.3",
         "reb": "2.5",
         "ast": "2.5",
-        "net_rating": "N/A"
+        "net_rating": "4.40"
     },
     {
         "player_name": "Rex Walters",
         "age": "27.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "6.8",
         "reb": "1.8",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "4.32"
     },
     {
         "player_name": "Reggie Williams",
         "age": "33.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "5.8",
         "reb": "2.4",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "3.78"
     },
     {
         "player_name": "Reggie Miller",
         "age": "31.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "21.6",
         "reb": "3.5",
         "ast": "3.4",
-        "net_rating": "N/A"
+        "net_rating": "12.53"
     },
     {
         "player_name": "Ray Allen",
         "age": "21.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "13.4",
         "reb": "4.0",
         "ast": "2.6",
-        "net_rating": "N/A"
+        "net_rating": "8.42"
     },
     {
         "player_name": "Rasheed Wallace",
         "age": "22.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "15.1",
         "reb": "6.8",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "9.83"
     },
     {
         "player_name": "Randolph Childress",
         "age": "24.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "1.7",
         "reb": "0.3",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "1.08"
     },
     {
         "player_name": "Rex Chapman",
         "age": "29.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "13.8",
         "reb": "2.8",
         "ast": "2.8",
-        "net_rating": "N/A"
+        "net_rating": "8.30"
     },
     {
         "player_name": "Jerome Williams",
         "age": "24.0",
         "draft_number": "26",
+        "draft_round": "1",
         "pts": "1.5",
         "reb": "1.5",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "1.24"
     },
     {
         "player_name": "Rony Seikaly",
         "age": "32.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "17.3",
         "reb": "9.5",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "11.74"
     },
     {
         "player_name": "Shawn Respert",
         "age": "25.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "4.2",
         "reb": "1.0",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "2.60"
     },
     {
         "player_name": "Shawn Kemp",
         "age": "27.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "18.7",
         "reb": "10.0",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "12.73"
     },
     {
         "player_name": "Shawn Bradley",
         "age": "25.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "13.2",
         "reb": "8.4",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "9.26"
     },
     {
         "player_name": "Sharone Wright",
         "age": "24.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "6.5",
         "reb": "3.1",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "4.28"
     },
     {
         "player_name": "Shareef Abdur-Rahim",
         "age": "20.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "18.7",
         "reb": "6.9",
         "ast": "2.2",
-        "net_rating": "N/A"
+        "net_rating": "11.86"
     },
     {
         "player_name": "Shaquille O'Neal",
         "age": "25.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "26.2",
         "reb": "12.5",
         "ast": "3.1",
-        "net_rating": "N/A"
+        "net_rating": "17.47"
     },
     {
         "player_name": "Roy Rogers",
         "age": "23.0",
         "draft_number": "22",
+        "draft_round": "1",
         "pts": "6.6",
         "reb": "4.7",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "4.83"
     },
     {
         "player_name": "Sean Elliott",
         "age": "29.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "14.9",
         "reb": "4.9",
         "ast": "3.2",
-        "net_rating": "N/A"
+        "net_rating": "9.56"
     },
     {
         "player_name": "Scott Burrell",
         "age": "26.0",
         "draft_number": "20",
+        "draft_round": "1",
         "pts": "5.2",
         "reb": "2.8",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "3.70"
     },
     {
         "player_name": "Samaki Walker",
         "age": "21.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "4.9",
         "reb": "3.4",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "3.55"
     },
     {
         "player_name": "Sam Perkins",
         "age": "36.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "11.0",
         "reb": "3.7",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "6.87"
     },
     {
         "player_name": "Sam Cassell",
         "age": "27.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "15.9",
         "reb": "3.0",
         "ast": "5.0",
-        "net_rating": "N/A"
+        "net_rating": "9.85"
     },
     {
         "player_name": "Rumeal Robinson",
         "age": "30.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "3.3",
         "reb": "0.9",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "2.20"
     },
     {
         "player_name": "Scottie Pippen",
         "age": "31.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "20.2",
         "reb": "6.5",
         "ast": "5.7",
-        "net_rating": "N/A"
+        "net_rating": "13.19"
     },
     {
         "player_name": "Pete Chilcutt",
         "age": "28.0",
         "draft_number": "27",
+        "draft_round": "1",
         "pts": "3.4",
         "reb": "2.9",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "2.75"
     },
     {
         "player_name": "Jermaine O'Neal",
         "age": "18.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "4.1",
         "reb": "2.8",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "2.93"
     },
     {
         "player_name": "Chris Webber",
         "age": "24.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "20.1",
         "reb": "10.3",
         "ast": "4.6",
-        "net_rating": "N/A"
+        "net_rating": "14.06"
     },
     {
         "player_name": "Chris Mullin",
         "age": "33.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "14.5",
         "reb": "4.0",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "9.27"
     },
     {
         "player_name": "Chris Morris",
         "age": "31.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "4.3",
         "reb": "2.2",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "2.93"
     },
     {
         "player_name": "Chris Mills",
         "age": "27.0",
         "draft_number": "22",
+        "draft_round": "1",
         "pts": "13.4",
         "reb": "6.2",
         "ast": "2.5",
-        "net_rating": "N/A"
+        "net_rating": "9.06"
     },
     {
         "player_name": "Chris Gatling",
         "age": "29.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "19.0",
         "reb": "7.9",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "11.99"
     },
     {
         "player_name": "Cherokee Parks",
         "age": "24.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "3.3",
         "reb": "2.6",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "2.51"
     },
     {
         "player_name": "Charlie Ward",
         "age": "26.0",
         "draft_number": "26",
+        "draft_round": "1",
         "pts": "5.2",
         "reb": "2.8",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "4.26"
     },
     {
         "player_name": "Charles Smith",
         "age": "31.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "4.6",
         "reb": "3.4",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "3.46"
     },
     {
         "player_name": "Charles Oakley",
         "age": "33.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "10.8",
         "reb": "9.8",
         "ast": "2.8",
-        "net_rating": "N/A"
+        "net_rating": "8.90"
     },
     {
         "player_name": "Charles Barkley",
         "age": "34.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "19.2",
         "reb": "13.5",
         "ast": "4.7",
-        "net_rating": "N/A"
+        "net_rating": "14.59"
     },
     {
         "player_name": "Carlos Rogers",
         "age": "26.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "9.8",
         "reb": "5.4",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "6.66"
     },
     {
         "player_name": "Calbert Cheaney",
         "age": "25.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "10.6",
         "reb": "3.4",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "6.60"
     },
     {
         "player_name": "Byron Scott",
         "age": "36.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "6.7",
         "reb": "1.5",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "4.06"
     },
     {
         "player_name": "Christian Laettner",
         "age": "27.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "18.1",
         "reb": "8.8",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "12.23"
     },
     {
         "player_name": "Clar. Weatherspoon",
         "age": "26.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "12.2",
         "reb": "8.3",
         "ast": "1.7",
-        "net_rating": "N/A"
+        "net_rating": "8.93"
     },
     {
         "player_name": "David Vaughn",
         "age": "24.0",
         "draft_number": "25",
+        "draft_round": "1",
         "pts": "2.3",
         "reb": "2.7",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "2.00"
     },
     {
         "player_name": "David Robinson",
         "age": "31.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "17.7",
         "reb": "8.5",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "11.66"
     },
     {
         "player_name": "Danny Manning",
         "age": "31.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "13.5",
         "reb": "6.1",
         "ast": "2.2",
-        "net_rating": "N/A"
+        "net_rating": "9.02"
     },
     {
         "player_name": "Danny Ferry",
         "age": "30.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "10.6",
         "reb": "4.1",
         "ast": "1.8",
-        "net_rating": "N/A"
+        "net_rating": "6.89"
     },
     {
         "player_name": "Dana Barros",
         "age": "30.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "12.5",
         "reb": "2.0",
         "ast": "3.4",
-        "net_rating": "N/A"
+        "net_rating": "7.53"
     },
     {
         "player_name": "Bryant Stith",
         "age": "26.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "14.9",
         "reb": "4.2",
         "ast": "2.6",
-        "net_rating": "N/A"
+        "net_rating": "9.23"
     },
     {
         "player_name": "Dan Schayes",
         "age": "38.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "3.0",
         "reb": "2.8",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "2.40"
     },
     {
         "player_name": "Damon Stoudamire",
         "age": "23.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "20.2",
         "reb": "4.1",
         "ast": "8.8",
-        "net_rating": "N/A"
+        "net_rating": "13.09"
     },
     {
         "player_name": "Dale Ellis",
         "age": "36.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "16.6",
         "reb": "3.6",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "9.78"
     },
     {
         "player_name": "Dale Davis",
         "age": "28.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "10.4",
         "reb": "9.7",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "8.25"
     },
     {
         "player_name": "Cory Alexander",
         "age": "24.0",
         "draft_number": "29",
+        "draft_round": "1",
         "pts": "7.2",
         "reb": "1.5",
         "ast": "3.2",
-        "net_rating": "N/A"
+        "net_rating": "4.69"
     },
     {
         "player_name": "Corliss Williamson",
         "age": "23.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "11.6",
         "reb": "4.1",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "7.35"
     },
     {
         "player_name": "Corie Blount",
         "age": "28.0",
         "draft_number": "25",
+        "draft_round": "1",
         "pts": "4.2",
         "reb": "4.8",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "3.66"
     },
     {
         "player_name": "Clyde Drexler",
         "age": "35.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "18.0",
         "reb": "6.0",
         "ast": "5.7",
-        "net_rating": "N/A"
+        "net_rating": "11.94"
     },
     {
         "player_name": "Clifford Rozier",
         "age": "24.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "4.5",
         "reb": "5.6",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "4.07"
     },
     {
         "player_name": "Dan Majerle",
         "age": "31.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "10.8",
         "reb": "4.5",
         "ast": "3.2",
-        "net_rating": "N/A"
+        "net_rating": "7.39"
     },
     {
         "player_name": "Bryant Reeves",
         "age": "24.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "16.2",
         "reb": "8.1",
         "ast": "2.1",
-        "net_rating": "N/A"
+        "net_rating": "10.95"
     },
     {
         "player_name": "Brooks Thompson",
         "age": "26.0",
         "draft_number": "27",
+        "draft_round": "1",
         "pts": "6.6",
         "reb": "1.4",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "4.26"
     },
     {
         "player_name": "Antoine Walker",
         "age": "20.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "17.5",
         "reb": "9.0",
         "ast": "3.2",
-        "net_rating": "N/A"
+        "net_rating": "12.09"
     },
     {
         "player_name": "Antoine Carr",
         "age": "35.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "7.4",
         "reb": "2.4",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "4.60"
     },
     {
         "player_name": "Anthony Peeler",
         "age": "27.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "14.5",
         "reb": "3.4",
         "ast": "3.6",
-        "net_rating": "N/A"
+        "net_rating": "8.99"
     },
     {
         "player_name": "Anfernee Hardaway",
         "age": "25.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "20.5",
         "reb": "4.5",
         "ast": "5.6",
-        "net_rating": "N/A"
+        "net_rating": "12.72"
     },
     {
         "player_name": "Alton Lister",
         "age": "38.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "1.6",
         "reb": "3.2",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "1.80"
     },
     {
         "player_name": "Allen Iverson",
         "age": "22.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "23.5",
         "reb": "4.1",
         "ast": "7.5",
-        "net_rating": "N/A"
+        "net_rating": "14.48"
     },
     {
         "player_name": "Allan Houston",
         "age": "26.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "14.8",
         "reb": "3.0",
         "ast": "2.2",
-        "net_rating": "N/A"
+        "net_rating": "8.74"
     },
     {
         "player_name": "Alan Henderson",
         "age": "24.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "6.6",
         "reb": "3.9",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "4.63"
     },
     {
         "player_name": "Adam Keefe",
         "age": "27.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "3.8",
         "reb": "3.5",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "3.05"
     },
     {
         "player_name": "Acie Earl",
         "age": "27.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "4.0",
         "reb": "2.0",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "2.68"
     },
     {
         "player_name": "Aaron McKie",
         "age": "24.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "5.2",
         "reb": "2.7",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "3.79"
     },
     {
         "player_name": "A.C. Green",
         "age": "33.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "7.2",
         "reb": "7.9",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "6.13"
     },
     {
         "player_name": "Alonzo Mourning",
         "age": "27.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "19.8",
         "reb": "9.9",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "13.19"
     },
     {
         "player_name": "Armen Gilliam",
         "age": "33.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "8.6",
         "reb": "6.2",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "6.30"
     },
     {
         "player_name": "Brian Shaw",
         "age": "31.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "7.2",
         "reb": "2.5",
         "ast": "4.1",
-        "net_rating": "N/A"
+        "net_rating": "5.17"
     },
     {
         "player_name": "Brian Grant",
         "age": "25.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "10.5",
         "reb": "5.9",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "7.26"
     },
     {
         "player_name": "Brian Evans",
         "age": "23.0",
         "draft_number": "27",
+        "draft_round": "1",
         "pts": "1.4",
         "reb": "0.6",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "0.98"
     },
     {
         "player_name": "Brent Barry",
         "age": "25.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "7.5",
         "reb": "1.9",
         "ast": "2.6",
-        "net_rating": "N/A"
+        "net_rating": "4.84"
     },
     {
         "player_name": "Bobby Hurley",
         "age": "26.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "2.9",
         "reb": "0.8",
         "ast": "3.0",
-        "net_rating": "N/A"
+        "net_rating": "2.29"
     },
     {
         "player_name": "Bob Sura",
         "age": "24.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "9.2",
         "reb": "3.8",
         "ast": "4.8",
-        "net_rating": "N/A"
+        "net_rating": "6.70"
     },
     {
         "player_name": "Antonio McDyess",
         "age": "22.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "18.3",
         "reb": "7.3",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "11.62"
     },
     {
         "player_name": "Bison Dele",
         "age": "28.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "7.0",
         "reb": "3.7",
         "ast": "1.3",
-        "net_rating": "N/A"
+        "net_rating": "4.87"
     },
     {
         "player_name": "Billy Owens",
         "age": "28.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "11.0",
         "reb": "5.9",
         "ast": "2.8",
-        "net_rating": "N/A"
+        "net_rating": "7.83"
     },
     {
         "player_name": "Bill Wennington",
         "age": "34.0",
         "draft_number": "16",
+        "draft_round": "1",
         "pts": "4.6",
         "reb": "2.1",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "3.07"
     },
     {
         "player_name": "Benoit Benjamin",
         "age": "32.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "3.3",
         "reb": "2.3",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "2.40"
     },
     {
         "player_name": "B.J. Armstrong",
         "age": "29.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "7.9",
         "reb": "1.5",
         "ast": "2.6",
-        "net_rating": "N/A"
+        "net_rating": "4.92"
     },
     {
         "player_name": "Arvydas Sabonis",
         "age": "32.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "13.4",
         "reb": "7.9",
         "ast": "2.1",
-        "net_rating": "N/A"
+        "net_rating": "9.49"
     },
     {
         "player_name": "Blue Edwards",
         "age": "31.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "7.8",
         "reb": "3.1",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "5.21"
     },
     {
         "player_name": "Buck Williams",
         "age": "37.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "6.3",
         "reb": "5.4",
         "ast": "0.7",
-        "net_rating": "N/A"
+        "net_rating": "4.91"
     },
     {
         "player_name": "Dell Curry",
         "age": "33.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "14.8",
         "reb": "3.1",
         "ast": "1.7",
-        "net_rating": "N/A"
+        "net_rating": "8.67"
     },
     {
         "player_name": "Hakeem Olajuwon",
         "age": "34.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "23.2",
         "reb": "9.2",
         "ast": "3.0",
-        "net_rating": "N/A"
+        "net_rating": "14.96"
     },
     {
         "player_name": "Greg Ostertag",
         "age": "24.0",
         "draft_number": "28",
+        "draft_round": "1",
         "pts": "7.3",
         "reb": "7.3",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "5.92"
     },
     {
         "player_name": "Greg Minor",
         "age": "25.0",
         "draft_number": "25",
+        "draft_round": "1",
         "pts": "9.6",
         "reb": "3.5",
         "ast": "1.5",
-        "net_rating": "N/A"
+        "net_rating": "6.15"
     },
     {
         "player_name": "Greg Graham",
         "age": "26.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "3.3",
         "reb": "0.5",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "1.88"
     },
     {
         "player_name": "Greg Anthony",
         "age": "29.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "9.5",
         "reb": "2.8",
         "ast": "6.3",
-        "net_rating": "N/A"
+        "net_rating": "6.85"
     },
     {
         "player_name": "Greg Anderson",
         "age": "33.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "3.9",
         "reb": "5.5",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "3.68"
     },
     {
         "player_name": "Grant Hill",
         "age": "24.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "21.4",
         "reb": "9.0",
         "ast": "7.3",
-        "net_rating": "N/A"
+        "net_rating": "14.86"
     },
     {
         "player_name": "Glenn Robinson",
         "age": "24.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "21.1",
         "reb": "6.3",
         "ast": "3.1",
-        "net_rating": "N/A"
+        "net_rating": "13.06"
     },
     {
         "player_name": "Harvey Grant",
         "age": "31.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "4.1",
         "reb": "3.3",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "3.22"
     },
     {
         "player_name": "Glen Rice",
         "age": "30.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "26.8",
         "reb": "4.0",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "15.00"
     },
     {
         "player_name": "George Zidek",
         "age": "23.0",
         "draft_number": "22",
+        "draft_round": "1",
         "pts": "2.8",
         "reb": "1.7",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "1.97"
     },
     {
         "player_name": "George McCloud",
         "age": "30.0",
         "draft_number": "7",
+        "draft_round": "1",
         "pts": "10.2",
         "reb": "2.8",
         "ast": "1.7",
-        "net_rating": "N/A"
+        "net_rating": "6.28"
     },
     {
         "player_name": "George Lynch",
         "age": "26.0",
         "draft_number": "12",
+        "draft_round": "1",
         "pts": "8.3",
         "reb": "6.4",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "6.45"
     },
     {
         "player_name": "Gary Trent",
         "age": "22.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "10.8",
         "reb": "5.2",
         "ast": "1.1",
-        "net_rating": "N/A"
+        "net_rating": "7.18"
     },
     {
         "player_name": "Gary Payton",
         "age": "28.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "21.8",
         "reb": "4.6",
         "ast": "7.1",
-        "net_rating": "N/A"
+        "net_rating": "13.70"
     },
     {
         "player_name": "Gary Grant",
         "age": "32.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "3.9",
         "reb": "1.4",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "2.69"
     },
     {
         "player_name": "Herb Williams",
         "age": "39.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "1.9",
         "reb": "1.5",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "1.44"
     },
     {
         "player_name": "Dee Brown",
         "age": "28.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "7.6",
         "reb": "2.3",
         "ast": "3.2",
-        "net_rating": "N/A"
+        "net_rating": "5.13"
     },
     {
         "player_name": "Jeff Grayer",
         "age": "31.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "3.6",
         "reb": "1.5",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "2.45"
     },
     {
         "player_name": "Jayson Williams",
         "age": "29.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "13.4",
         "reb": "13.5",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "10.99"
     },
     {
         "player_name": "Jason Kidd",
         "age": "24.0",
         "draft_number": "2",
+        "draft_round": "1",
         "pts": "10.9",
         "reb": "4.5",
         "ast": "9.0",
-        "net_rating": "N/A"
+        "net_rating": "8.60"
     },
     {
         "player_name": "Jason Caffey",
         "age": "24.0",
         "draft_number": "20",
+        "draft_round": "1",
         "pts": "7.3",
         "reb": "4.0",
         "ast": "1.2",
-        "net_rating": "N/A"
+        "net_rating": "5.09"
     },
     {
         "player_name": "James Robinson",
         "age": "26.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "8.3",
         "reb": "1.6",
         "ast": "1.8",
-        "net_rating": "N/A"
+        "net_rating": "4.99"
     },
     {
         "player_name": "Jalen Rose",
         "age": "24.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "7.3",
         "reb": "1.8",
         "ast": "2.3",
-        "net_rating": "N/A"
+        "net_rating": "4.65"
     },
     {
         "player_name": "Isaiah Rider",
         "age": "26.0",
         "draft_number": "5",
+        "draft_round": "1",
         "pts": "16.1",
         "reb": "4.0",
         "ast": "2.6",
-        "net_rating": "N/A"
+        "net_rating": "9.77"
     },
     {
         "player_name": "Hubert Davis",
         "age": "27.0",
         "draft_number": "20",
+        "draft_round": "1",
         "pts": "5.0",
         "reb": "1.1",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "3.01"
     },
     {
         "player_name": "Horace Grant",
         "age": "31.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "12.6",
         "reb": "9.0",
         "ast": "2.4",
-        "net_rating": "N/A"
+        "net_rating": "9.48"
     },
     {
         "player_name": "Hersey Hawkins",
         "age": "30.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "13.9",
         "reb": "3.9",
         "ast": "3.0",
-        "net_rating": "N/A"
+        "net_rating": "8.72"
     },
     {
         "player_name": "Jamal Mashburn",
         "age": "24.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "11.9",
         "reb": "4.3",
         "ast": "2.9",
-        "net_rating": "N/A"
+        "net_rating": "7.82"
     },
     {
         "player_name": "Felton Spencer",
         "age": "29.0",
         "draft_number": "6",
+        "draft_round": "1",
         "pts": "5.1",
         "reb": "5.7",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "4.32"
     },
     {
         "player_name": "Ervin Johnson",
         "age": "29.0",
         "draft_number": "23",
+        "draft_round": "1",
         "pts": "7.1",
         "reb": "11.1",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "7.06"
     },
     {
         "player_name": "Donyell Marshall",
         "age": "24.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "7.3",
         "reb": "4.5",
         "ast": "0.9",
-        "net_rating": "N/A"
+        "net_rating": "5.18"
     },
     {
         "player_name": "Don MacLean",
         "age": "27.0",
         "draft_number": "19",
+        "draft_round": "1",
         "pts": "10.9",
         "reb": "3.8",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "6.79"
     },
     {
         "player_name": "Dominique Wilkins",
         "age": "37.0",
         "draft_number": "3",
+        "draft_round": "1",
         "pts": "18.2",
         "reb": "6.4",
         "ast": "1.9",
-        "net_rating": "N/A"
+        "net_rating": "11.40"
     },
     {
         "player_name": "Dikembe Mutombo",
         "age": "31.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "13.3",
         "reb": "11.6",
         "ast": "1.4",
-        "net_rating": "N/A"
+        "net_rating": "10.41"
     },
     {
         "player_name": "Doug Christie",
         "age": "27.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "14.5",
         "reb": "5.3",
         "ast": "3.9",
-        "net_rating": "N/A"
+        "net_rating": "9.62"
     },
     {
         "player_name": "Dickey Simpkins",
         "age": "25.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "1.9",
         "reb": "1.9",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "1.64"
     },
     {
         "player_name": "Detlef Schrempf",
         "age": "34.0",
         "draft_number": "8",
+        "draft_round": "1",
         "pts": "16.8",
         "reb": "6.5",
         "ast": "4.4",
-        "net_rating": "N/A"
+        "net_rating": "11.23"
     },
     {
         "player_name": "Derrick McKey",
         "age": "30.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "8.0",
         "reb": "4.8",
         "ast": "2.7",
-        "net_rating": "N/A"
+        "net_rating": "5.98"
     },
     {
         "player_name": "Derrick Coleman",
         "age": "30.0",
         "draft_number": "1",
+        "draft_round": "1",
         "pts": "18.1",
         "reb": "10.1",
         "ast": "3.4",
-        "net_rating": "N/A"
+        "net_rating": "12.76"
     },
     {
         "player_name": "Derek Harper",
         "age": "35.0",
         "draft_number": "11",
+        "draft_round": "1",
         "pts": "10.0",
         "reb": "1.8",
         "ast": "4.3",
-        "net_rating": "N/A"
+        "net_rating": "6.40"
     },
     {
         "player_name": "Derek Fisher",
         "age": "22.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "3.9",
         "reb": "1.2",
         "ast": "1.5",
-        "net_rating": "N/A"
+        "net_rating": "2.61"
     },
     {
         "player_name": "Dennis Scott",
         "age": "28.0",
         "draft_number": "4",
+        "draft_round": "1",
         "pts": "12.5",
         "reb": "3.1",
         "ast": "2.1",
-        "net_rating": "N/A"
+        "net_rating": "7.60"
     },
     {
         "player_name": "Duane Causwell",
         "age": "29.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "2.6",
         "reb": "2.8",
         "ast": "0.4",
-        "net_rating": "N/A"
+        "net_rating": "2.22"
     },
     {
         "player_name": "Erick Dampier",
         "age": "21.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "5.1",
         "reb": "4.1",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "3.90"
     },
     {
         "player_name": "Eric Williams",
         "age": "24.0",
         "draft_number": "14",
+        "draft_round": "1",
         "pts": "15.0",
         "reb": "4.6",
         "ast": "1.8",
-        "net_rating": "N/A"
+        "net_rating": "9.24"
     },
     {
         "player_name": "Eric Piatkowski",
         "age": "26.0",
         "draft_number": "15",
+        "draft_round": "1",
         "pts": "6.0",
         "reb": "1.6",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "3.64"
     },
     {
         "player_name": "Eric Murdock",
         "age": "29.0",
         "draft_number": "21",
+        "draft_round": "1",
         "pts": "3.8",
         "reb": "0.9",
         "ast": "2.0",
-        "net_rating": "N/A"
+        "net_rating": "2.57"
     },
     {
         "player_name": "Eric Mobley",
         "age": "27.0",
         "draft_number": "18",
+        "draft_round": "1",
         "pts": "2.6",
         "reb": "2.1",
         "ast": "0.5",
-        "net_rating": "N/A"
+        "net_rating": "2.03"
     },
     {
         "player_name": "Eric Leckner",
         "age": "31.0",
         "draft_number": "17",
+        "draft_round": "1",
         "pts": "1.7",
         "reb": "1.8",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "1.45"
     },
     {
         "player_name": "Ennis Whatley",
         "age": "34.0",
         "draft_number": "13",
+        "draft_round": "1",
         "pts": "1.3",
         "reb": "1.0",
         "ast": "1.0",
-        "net_rating": "N/A"
+        "net_rating": "1.15"
     },
     {
         "player_name": "Eric Montross",
         "age": "25.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "4.4",
         "reb": "6.6",
         "ast": "0.8",
-        "net_rating": "N/A"
+        "net_rating": "4.34"
     },
     {
         "player_name": "Elmore Spencer",
         "age": "27.0",
         "draft_number": "25",
+        "draft_round": "1",
         "pts": "0.0",
         "reb": "0.0",
         "ast": "0.0",
-        "net_rating": "N/A"
+        "net_rating": "0.00"
     },
     {
         "player_name": "Ed O'Bannon",
         "age": "24.0",
         "draft_number": "9",
+        "draft_round": "1",
         "pts": "3.7",
         "reb": "2.3",
         "ast": "0.6",
-        "net_rating": "N/A"
+        "net_rating": "2.66"
     },
     {
         "player_name": "Ed Pinckney",
         "age": "34.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "2.4",
         "reb": "2.4",
         "ast": "0.2",
-        "net_rating": "N/A"
+        "net_rating": "1.96"
     },
     {
         "player_name": "Dwayne Schintzius",
         "age": "28.0",
         "draft_number": "24",
+        "draft_round": "1",
         "pts": "2.3",
         "reb": "1.5",
         "ast": "0.3",
-        "net_rating": "N/A"
+        "net_rating": "1.66"
     },
     {
         "player_name": "Eddie Jones",
         "age": "25.0",
         "draft_number": "10",
+        "draft_round": "1",
         "pts": "17.2",
         "reb": "4.1",
         "ast": "3.4",
-        "net_rating": "N/A"
+        "net_rating": "10.51"
     },
     {
         "player_name": "Elden Campbell",
         "age": "28.0",
         "draft_number": "27",
+        "draft_round": "1",
         "pts": "14.9",
         "reb": "8.0",
         "ast": "1.6",
-        "net_rating": "N/A"
+        "net_rating": "10.17"
     }
 ]

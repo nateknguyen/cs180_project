@@ -114,7 +114,7 @@ def draftRating():
    
     playersToCalculate = calculateDraftRound.readPlayersDraftRoundRating(season, round)
 
-    average = calculateNetRating.calculateAverageNetRating(playersToCalculate)
+    average = calculateNetRating.calculateAverageNetRating()
     draftRatingHeader = 'Season ' + season + ' Draft Round: ' + round 
 
     return render_template('draftRating.html', playerName=draftRatingHeader,playerList=playersToCalculate,averageNetRating=average)

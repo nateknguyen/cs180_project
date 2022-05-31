@@ -13,7 +13,7 @@ def readPlayersDraftRoundRating(season, draftRound):
     result = list()
     for player in playerList:
         if player['draft_round'] == draftRound and player['season'] == season:
-            trimData = {'player_name':player['player_name'], 'age':player['age'], 'draft_number':player['draft_number'], 'pts':player['pts'], 'reb':player['reb'], 'ast':player['ast'], 'net_rating':'N/A'}
+            trimData = {'player_name':player['player_name'], 'age':player['age'], 'draft_number':player['draft_number'], 'draft_round':player['draft_round'], 'pts':player['pts'], 'reb':player['reb'], 'ast':player['ast'], 'net_rating':'N/A'}
             result.append(trimData)
 
     playerDataStore.writeDataToJSON(CALCULATED_DRAFT_ROUND_RATING, result)
